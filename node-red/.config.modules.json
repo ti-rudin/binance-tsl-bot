@@ -1,0 +1,9 @@
+{
+    "ws": {
+        "spec": "ws",
+        "module": "ws",
+        "subpath": "",
+        "builtin": false,
+        "known": false
+    }
+}

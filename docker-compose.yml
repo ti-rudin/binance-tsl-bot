@@ -1,0 +1,109 @@
+version: "3.7"
+
+services:
+  front:
+    container_name: front
+    build:
+      context: ./front
+      dockerfile: ./Dockerfile
+    networks:
+      - tibotnet
+    ports:
+      - "3000:3000"
+    depends_on:
+      - redis
+      - node-red
+    volumes:
+      - './front/:/usr/src/app'
+    restart: always
+
+  node-red:
+    container_name: node-red
+    build:
+      context: .
+      dockerfile: ./nodered-core.Dockerfile
+    ports:
+      - "1880:1880"
+    environment:
+      - NODE_RED_ENABLE_SAFE_MODE=false
+      - TZ=Europe/Moscow
+    networks:
+      - tibotnet
+    depends_on:
+      - redis
+    volumes:
+      - ./node-red:/data 
+    restart: always
+
+  redis:
+    image: "redis:alpine"
+    container_name: redis
+    command: redis-server --requirepass YzRAdGgkF25g
+    ports:
+     - "6379:6379"
+    environment:
+         - REDIS_REPLICATION_MODE=master
+    volumes:
+      - ./redis-data:/data
+    restart: always
+    networks:
+      - tibotnet
+
+  service-balance:
+    container_name: service-balance
+    build:
+      context: ./service-balance
+      dockerfile: ./Dockerfile.dev
+    volumes:
+      - './service-balance/:/usr/src/app'
+    restart: on-failure
+    depends_on:
+      - redis
+    networks:
+      - tibotnet
+
+  service-price:
+    container_name: service-price
+    build:
+      context: ./service-price
+      dockerfile: ./Dockerfile.dev
+    volumes:
+      - './service-price/:/usr/src/app'
+    restart: on-failure
+    depends_on:
+      - redis
+    networks:
+      - tibotnet
+  
+  service-orders:
+    container_name: service-orders
+    build:
+      context: ./service-orders
+      dockerfile: ./Dockerfile.dev
+    volumes:
+      - './service-orders/:/usr/src/app'
+    restart: on-failure
+    depends_on:
+      - redis
+    networks:
+      - tibotnet
+
+  telegrambot:
+    container_name: telegrambot
+    build:
+      context: ./telegrambot
+      dockerfile: ./Dockerfile.dev
+    volumes:
+      - './telegrambot/:/usr/src/app'
+    restart: on-failure
+    depends_on:
+      - redis
+    networks:
+      - tibotnet
+
+volumes:
+  redis-data:
+  node-red-core:
+
+networks:
+  tibotnet:

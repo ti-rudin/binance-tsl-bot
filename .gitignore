@@ -1,0 +1,129 @@
+# Игнорирование системных файлов
+.DS_Store
+.env
+
+# Игнорирование зависимостей
+/node_modules/
+
+# Игнорирование временных файлов
+*.tmp
+*.log
+
+# Игнорирование специфичных для проекта файлов
+*.local
+*.env.local
+
+# Игнорирование кэша и других временных файлов
+yarn-error.log
+front/node_modules/
+redis-data/dump.rdb
+
+############################
+# OS X
+############################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
+
+############################
+# Linux
+############################
+
+*~
+
+############################
+# Windows
+############################
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+############################
+# Packages
+############################
+
+*.7z
+*.csv
+*.dat
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.seed
+*.so
+*.swo
+*.swp
+*.swn
+*.swm
+*.out
+*.pid
+
+############################
+# Logs and databases
+############################
+
+*.sql
+*.sqlite
+*.sqlite3
+
+############################
+# Misc.
+############################
+
+*#
+ssl
+.idea
+nbproject
+public/uploads/*
+!public/uploads/.gitkeep
+
+############################
+# Node.js
+############################
+
+lib-cov
+lcov.info
+pids
+logs
+results
+node_modules
+.node_history
+
+############################
+# Tests
+############################
+
+testApp
+coverage
+
+############################
+# Strapi
+############################
+.npm/
+.env
+license.txt
+exports
+.cache
+_cacache/*
+
+redis-data/dump.rdb
+node-red/package-lock.json

@@ -1,0 +1,7 @@
+Sun Mar 23 2025 13:03:07 -1742724187516 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"PNUTUSDT","orderId":1370384587,"orderListId":-1,"clientOrderId":"4bJCNC5rQZC8NbVPU8DhZf","transactTime":1742724187371}
+Sun Mar 23 2025 13:03:07 -1742724187517 : [ sell_on_binance] Успешно
+Sun Mar 23 2025 13:03:14 -1742724194432 : [ sell_cancel_on_binance] Успешно
+Sun Mar 23 2025 13:03:22 -1742724202427 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"PNUTUSDT","orderId":1370387743,"orderListId":-1,"clientOrderId":"H7vTq2NGoWhoTpCeAV0WT7","transactTime":1742724202284}
+Sun Mar 23 2025 13:03:22 -1742724202427 : [ sell_on_binance] Успешно
+Sun Mar 23 2025 13:04:07 -1742724247485 : [ order_status_on_binance] Успешно
+Sun Mar 23 2025 13:04:19 -1742724259946 : [registration-sdelki] [3] Registration complete

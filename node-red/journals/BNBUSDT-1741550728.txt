@@ -1,0 +1,24 @@
+Fri Mar 21 2025 13:08:18 -1742551698290 : [создаем] [6] Рассчитанная цена: 631.75, стоп-цена: 632.07, количество: 0.035
+Fri Mar 21 2025 13:08:18 -1742551698292 : [создаем] [8] Отправлена команда на продажу с параметрами: {"pair":"BNBUSDT","quantity":0.035,"price":631.75,"stopprice":632.07}
+Fri Mar 21 2025 13:08:19 -1742551699461 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"BNBUSDT","orderId":7656133860,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ56538e5acffa41dea83655","transactTime":1742551699309}
+Fri Mar 21 2025 13:08:19 -1742551699462 : [ sell_on_binance] Успешно
+Fri Mar 21 2025 13:08:22 -1742551702360 : [ sell_cancel_on_binance] Успешно
+Fri Mar 21 2025 13:08:23 -1742551703239 : [создаем] [6] Рассчитанная цена: 631.77, стоп-цена: 632.09, количество: 0.035
+Fri Mar 21 2025 13:08:23 -1742551703240 : [создаем] [8] Отправлена команда на продажу с параметрами: {"pair":"BNBUSDT","quantity":0.035,"price":631.77,"stopprice":632.09}
+Fri Mar 21 2025 13:08:24 -1742551704360 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"BNBUSDT","orderId":7656134064,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ5c4078764d604f52b242d4","transactTime":1742551704181}
+Fri Mar 21 2025 13:08:24 -1742551704361 : [ sell_on_binance] Успешно
+Fri Mar 21 2025 13:17:29 -1742552249892 : [ sell_cancel_on_binance] Успешно
+Fri Mar 21 2025 13:17:30 -1742552250671 : [создаем] [6] Рассчитанная цена: 631.62, стоп-цена: 631.94, количество: 0.035
+Fri Mar 21 2025 13:17:30 -1742552250672 : [создаем] [8] Отправлена команда на продажу с параметрами: {"pair":"BNBUSDT","quantity":0.035,"price":631.62,"stopprice":631.94}
+Fri Mar 21 2025 13:17:31 -1742552251771 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"BNBUSDT","orderId":7656202261,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ5e46162bbb5e44309a6ebe","transactTime":1742552251627}
+Fri Mar 21 2025 13:17:31 -1742552251771 : [ sell_on_binance] Успешно
+Fri Mar 21 2025 13:17:38 -1742552258401 : [ sell_cancel_on_binance] Успешно
+Fri Mar 21 2025 13:17:38 -1742552258575 : [ sell_cancel_on_binance] Ошибка : Unknown order sent.
+Fri Mar 21 2025 13:17:38 -1742552258660 : [ sell_cancel_on_binance] Ошибка : Unknown order sent.
+Fri Mar 21 2025 13:17:38 -1742552258661 : [ sell_cancel_on_binance] Ошибка : Unknown order sent.
+Fri Mar 21 2025 13:17:39 -1742552259693 : [создаем] [6] Рассчитанная цена: 631.58, стоп-цена: 631.9, количество: 0.035
+Fri Mar 21 2025 13:17:39 -1742552259695 : [создаем] [8] Отправлена команда на продажу с параметрами: {"pair":"BNBUSDT","quantity":0.035,"price":631.58,"stopprice":631.9}
+Fri Mar 21 2025 13:17:40 -1742552260751 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"BNBUSDT","orderId":7656203744,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ022a03b778c249fe85415b","transactTime":1742552260608}
+Fri Mar 21 2025 13:17:40 -1742552260751 : [ sell_on_binance] Успешно
+Fri Mar 21 2025 13:32:48 -1742553168223 : [ order_status_on_binance] Успешно
+Fri Mar 21 2025 13:32:50 -1742553170473 : [registration-sdelki] [3] Registration complete

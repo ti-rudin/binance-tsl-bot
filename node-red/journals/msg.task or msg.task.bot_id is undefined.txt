@@ -1,0 +1,808 @@
+[
+    {
+        "id": "66417e79b35af5cd",
+        "type": "inject",
+        "z": "57313f952856c7ea",
+        "name": "Broker Timer",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": ".2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 320,
+        "y": 180,
+        "wires": [
+            [
+                "64d16759b71cb687"
+            ]
+        ]
+    },
+    {
+        "id": "64d16759b71cb687",
+        "type": "function",
+        "z": "57313f952856c7ea",
+        "name": "Broker: Check Tasks and Workers",
+        "func": "// ==== Конфигурация ====\nconst config = {\n    redis: {\n        taskQueueName: 'ti_new_tasks',\n        jobChannel: 'job',\n        botLockPrefix: 'ti_bot_lock:',\n        workerLockPrefix: 'ti_worker_lock:',\n    },\n    noLockCommands: ['sell_on_binance', 'cancel_on_binance'],\n    lockTTL: 5, // Время жизни блокировки в секундах\n};\n\n// ==== Настройка ====\nlet ti_redis = context.global.get('redis');\n\n// ==== Функция проверки, занят ли бот ====\nasync function ti_isBotBusy(botId) {\n    try {\n        let ti_value = await ti_redis.get(config.redis.botLockPrefix + botId);\n        return ti_value !== null;\n    } catch (err) {\n        node.error(`Ошибка при проверке занятости бота ${botId}:`, err);\n        throw err;\n    }\n}\n\n// ==== Функция проверки, занят ли воркер ====\nasync function ti_isWorkerBusy(workerId) {\n    try {\n        let ti_value = await ti_redis.get(config.redis.workerLockPrefix + workerId);\n        return ti_value !== null;\n    } catch (err) {\n        node.error(`Ошибка при проверке занятости воркера ${workerId}:`, err);\n        throw err;\n    }\n}\n\n// ==== Функция блокировки бота ====\nasync function ti_lockBot(botId) {\n    try {\n        await ti_redis.set(config.redis.botLockPrefix + botId, 1, 'EX', config.lockTTL);\n        node.log(`Бот ${botId} заблокирован на ${config.lockTTL} секунд.`);\n    } catch (err) {\n        node.error(`Ошибка при блокировке бота ${botId}:`, err);\n        throw err;\n    }\n}\n\n// ==== Функция блокировки воркера ====\nasync function ti_lockWorker(workerId) {\n    try {\n        await ti_redis.set(config.redis.workerLockPrefix + workerId, 1, 'EX', config.lockTTL);\n        node.log(`Воркер ${workerId} заблокирован на ${config.lockTTL} секунд.`);\n    } catch (err) {\n        node.error(`Ошибка при блокировке воркера ${workerId}:`, err);\n        throw err;\n    }\n}\n\n// ==== Функция получения свободного воркера ====\nasync function ti_getFreeWorker() {\n    try {\n        // Получаем список всех воркеров\n        const workers = await ti_redis.keys('worker:*');\n\n        // Ищем первого свободного воркера\n        for (const worker of workers) {\n            const isBusy = await ti_isWorkerBusy(worker);\n            if (!isBusy) {\n                return worker; // Возвращаем первого свободного воркера\n            }\n        }\n\n        // Если все воркеры заняты, возвращаем null\n        return null;\n    } catch (err) {\n        node.error('Ошибка при выборе воркера:', err);\n        throw err;\n    }\n}\n\n// ==== Логика брокера ====\n(async () => {\n    try {\n        // 1. Получаем задачу из очереди\n        let ti_taskData = await ti_redis.lpop(config.redis.taskQueueName);\n\n        if (!ti_taskData) {\n            node.log('Очередь задач пуста.');\n            return;\n        }\n\n        let ti_task;\n        try {\n            ti_task = JSON.parse(ti_taskData);\n        } catch (err) {\n            node.error('Ошибка при парсинге задачи:', err);\n            return [null, { error: 'Ошибка при парсинге задачи', details: err }];\n        }\n\n        // 2. Валидация задачи\n        if (!ti_task.task || !ti_task.task.bot_id || !ti_task.task.cmd) {\n            node.warn('Некорректная задача: отсутствуют обязательные поля.');\n            return [null, { error: 'Некорректная задача', details: ti_task }];\n        }\n\n        // 3. Получаем данные бота из Redis\n        let botData;\n        try {\n            botData = await ti_redis.get(`bots:${ti_task.task.bot_id}:data`);\n            if (botData) {\n                ti_task.bot_data = JSON.parse(botData);\n            } else {\n                node.warn(`Данные бота ${ti_task.task.bot_id} не найдены в Redis.`);\n                return [null, { error: 'Данные бота не найдены', details: ti_task }];\n            }\n        } catch (err) {\n            node.error('Ошибка при получении данных бота:', err);\n            return [null, { error: 'Ошибка при получении данных бота', details: err }];\n        }\n\n        // 4. Проверяем, нужно ли блокировать бота\n        const shouldLockBot = !config.noLockCommands.includes(ti_task.task.cmd);\n\n        // 5. Если блокировка бота требуется, проверяем, свободен ли бот\n        if (shouldLockBot) {\n            try {\n                const isBotBusy = await ti_isBotBusy(ti_task.task.bot_id);\n                if (isBotBusy) {\n                    node.warn(`Бот ${ti_task.task.bot_id} занят. Возвращаем задачу в очередь.`);\n                    await ti_redis.rpush(config.redis.taskQueueName, ti_taskData);\n                    return;\n                }\n            } catch (err) {\n                node.error('Ошибка при проверке занятости бота:', err);\n                return [null, { error: 'Ошибка при проверке занятости бота', details: err }];\n            }\n        }\n\n        // 6. Получаем свободного воркера\n        let ti_workerId;\n        try {\n            ti_workerId = await ti_getFreeWorker();\n            if (!ti_workerId) {\n                node.warn('Нет доступных воркеров. Возвращаем задачу в очередь.');\n                await ti_redis.rpush(config.redis.taskQueueName, ti_taskData);\n                return;\n            }\n        } catch (err) {\n            node.error('Ошибка при выборе воркера:', err);\n            return [null, { error: 'Ошибка при выборе воркера', details: err }];\n        }\n\n        // 7. Если блокировка бота требуется, блокируем бота\n        if (shouldLockBot) {\n            try {\n                await ti_lockBot(ti_task.task.bot_id);\n            } catch (err) {\n                node.error('Ошибка при блокировке бота:', err);\n                return [null, { error: 'Ошибка при блокировке бота', details: err }];\n            }\n        }\n\n        // 8. Блокируем воркера\n        try {\n            await ti_lockWorker(ti_workerId);\n        } catch (err) {\n            node.error('Ошибка при блокировке воркера:', err);\n            return [null, { error: 'Ошибка при блокировке воркера', details: err }];\n        }\n\n        // 9. Отправляем задачу воркеру\n        ti_task.workerId = ti_workerId;\n        ti_task.startTime = Date.now();\n        try {\n            await ti_redis.publish(config.redis.jobChannel, JSON.stringify(ti_task));\n            node.log(`Задача ${ti_task.task.cmd} отправлена воркеру ${ti_workerId}`);\n        } catch (err) {\n            node.error('Ошибка при отправке задачи воркеру:', err);\n            return [null, { error: 'Ошибка при отправке задачи воркеру', details: err }];\n        }\n\n        // 10. Получаем количество задач в очереди\n        try {\n            let queueLength = await ti_redis.llen(config.redis.taskQueueName);\n            msg.payload = queueLength;\n            node.send(msg);\n        } catch (err) {\n            node.error('Ошибка при получении длины очереди:', err);\n            return [null, { error: 'Ошибка при получении длины очереди', details: err }];\n        }\n\n    } catch (err) {\n        node.error(\"Ошибка в логике брокера: \", err);\n        return [null, { error: 'Ошибка в логике брокера', details: err }];\n    }\n})();",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 180,
+        "wires": [
+            [
+                "bea059c931e19486"
+            ]
+        ]
+    },
+    {
+        "id": "cb05c66ee8a4a3f8",
+        "type": "function",
+        "z": "57313f952856c7ea",
+        "name": "Broker: Analyse Results",
+        "func": "// ==== Конфигурация ====\nconst config = {\n    redis: {\n        botLockPrefix: 'ti_bot_lock:',\n        workerLockPrefix: 'ti_worker_lock:',\n    },\n    noLockCommands: ['sell_on_binance', 'cancel_on_binance'],\n};\n\n// ==== Настройка ====\nlet ti_redis = context.global.get('redis');\n\n// ==== Функция разблокировки воркера ====\nasync function ti_unlockWorker(workerId) {\n    try {\n        await ti_redis.del(config.redis.workerLockPrefix + workerId);\n        node.log(`Воркер ${workerId} разблокирован.`);\n    } catch (err) {\n        node.error(`Ошибка при разблокировке воркера ${workerId}:`, err);\n        throw err;\n    }\n}\n\n// ==== Функция разблокировки бота ====\nasync function ti_unlockBot(botId) {\n    try {\n        await ti_redis.del(config.redis.botLockPrefix + botId);\n        node.log(`Бот ${botId} разблокирован.`);\n    } catch (err) {\n        node.error(`Ошибка при разблокировке бота ${botId}:`, err);\n        throw err;\n    }\n}\n\n// ==== Логика анализа результатов ====\n(async () => {\n    try {\n        const msg2 = msg.payload;\n\n        //Выполняем анализ:\n        const finishTime = Date.now();\n        let durationJob = finishTime - msg2.startTime;\n        let topickey = msg.payload.workerId + msg.payload.bot_id;\n        msg.topic = topickey;\n        msg.payload = durationJob;\n\n        // Разблокируем воркера\n        await ti_unlockWorker(msg2.workerId);\n\n        // Разблокируем бота, если команда требует блокировки\n        if (!config.noLockCommands.includes(msg2.task.cmd)) {\n            await ti_unlockBot(msg2.bot_id);\n        }\n\n        node.send(msg);\n    } catch (err) {\n        node.error(\"Ошибка при анализе результатов: \" + err);\n        return [null, { error: 'Ошибка при анализе результатов', details: err }];\n    }\n})();",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 320,
+        "wires": [
+            [
+                "61805c374b310731",
+                "947908843b5b6b10"
+            ]
+        ]
+    },
+    {
+        "id": "45a323763d9ad9f8",
+        "type": "inject",
+        "z": "57313f952856c7ea",
+        "name": "Test task",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"task\":{\"bot_id\":\"BNBUSDT-1741550728\",\"cmd\":\"sell_on_binance\",\"params\":{\"pair\":\"BNBUSDT\",\"quantity\":0.035,\"price\":544.02,\"stopprice\":544.29}}}",
+        "payloadType": "json",
+        "x": 380,
+        "y": 800,
+        "wires": [
+            [
+                "8701330d96e9f923"
+            ]
+        ]
+    },
+    {
+        "id": "3252946cb96f7370",
+        "type": "redis-in",
+        "z": "57313f952856c7ea",
+        "server": "a0efbb89.5e42d8",
+        "command": "subscribe",
+        "name": "fjob",
+        "topic": "fjob",
+        "obj": true,
+        "timeout": 0,
+        "x": 280,
+        "y": 300,
+        "wires": [
+            [
+                "cb05c66ee8a4a3f8",
+                "5af7f5090a02cd56"
+            ]
+        ]
+    },
+    {
+        "id": "5af7f5090a02cd56",
+        "type": "debug",
+        "z": "57313f952856c7ea",
+        "name": "debug 58",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "8701330d96e9f923",
+        "type": "redis-out",
+        "z": "57313f952856c7ea",
+        "server": "a0efbb89.5e42d8",
+        "command": "rpush",
+        "name": "",
+        "topic": "ti_new_tasks",
+        "obj": true,
+        "x": 620,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "61805c374b310731",
+        "type": "ui-chart",
+        "z": "57313f952856c7ea",
+        "group": "d403defdfbeecc46",
+        "name": "Время выполнения задач",
+        "label": "Время выполнения задач",
+        "order": 5,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": "2",
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "60",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 780,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bea059c931e19486",
+        "type": "ui-chart",
+        "z": "57313f952856c7ea",
+        "group": "d403defdfbeecc46",
+        "name": "Кол-во задач в очереди",
+        "label": "Кол-во задач в очереди",
+        "order": 7,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": "2",
+        "showLegend": false,
+        "removeOlder": 1,
+        "removeOlderUnit": "60",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 890,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "947908843b5b6b10",
+        "type": "debug",
+        "z": "57313f952856c7ea",
+        "name": "debug 63",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9d3f8c7f387ee75e",
+        "type": "inject",
+        "z": "57313f952856c7ea",
+        "name": "Test task",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"task\":{\"bot_id\":\"BNBUSDT-1741550727\",\"cmd\":\"sell_on_binance\",\"params\":{\"pair\":\"BNBUSDT\",\"quantity\":0.035,\"price\":544.02,\"stopprice\":544.29}}}",
+        "payloadType": "json",
+        "x": 380,
+        "y": 880,
+        "wires": [
+            [
+                "7b108aeba33c7b5c"
+            ]
+        ]
+    },
+    {
+        "id": "7b108aeba33c7b5c",
+        "type": "redis-out",
+        "z": "57313f952856c7ea",
+        "server": "a0efbb89.5e42d8",
+        "command": "rpush",
+        "name": "",
+        "topic": "ti_new_tasks",
+        "obj": true,
+        "x": 620,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "361041b32182672b",
+        "type": "group",
+        "z": "57313f952856c7ea",
+        "style": {
+            "stroke": "#2e333a",
+            "stroke-opacity": "1",
+            "fill": "#383c45",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#dddddd"
+        },
+        "nodes": [
+            "1e388e2102ad03c4",
+            "86bed67182f034d7",
+            "0ce6ef6baa634708",
+            "48781a09da441aea",
+            "0d4e2d735c41ce44",
+            "589e982f46173206",
+            "56edb1774f734651",
+            "1578f375d9b4d75f"
+        ],
+        "x": 114,
+        "y": 399,
+        "w": 772,
+        "h": 242
+    },
+    {
+        "id": "1e388e2102ad03c4",
+        "type": "function",
+        "z": "57313f952856c7ea",
+        "g": "361041b32182672b",
+        "name": "Worker 1: Process Job",
+        "func": "// ==== Настройка ====\nlet ti_redis = context.global.get('redis');\n\n(async () => {\n    try {\n        // Получаем ID воркера из контекста Flow\n        const ti_workerId = context.flow.get('ti_workerId');\n        // Получаем сообщение\n        let ti_task = msg.payload;\n        // Проверяем, предназначено ли сообщение этому воркеру\n        if (msg.payload.workerId !== ti_workerId) {\n            return; // Если нет, выходим из функции\n        }\n        node.warn('Воркер 1 получил задачу');\n\n        // Добавляем startTime и finishTime в taskData\n        const startTime = ti_task.startTime;\n\n        // Создаем финальный объект для отправки\n        const finalData = {\n            startTime: startTime,\n            task: ti_task.task,\n            bot_data: ti_task.bot_data, // Добавляем данные бота\n            workerId: ti_workerId,  // Добавляем workerId\n            bot_id: ti_task.task.bot_id // Добавляем bot_id\n        };\n\n        // Имитация выполнения задачи\n        await new Promise(resolve => setTimeout(resolve, Math.random() * (3000 - 1000) + 1000));\n\n        msg.payload = finalData;\n        msg.topic = \"fjob\";\n\n        node.send(msg);\n    } catch (err) {\n        node.error(\"Ошибка в воркере 1: \" + err);\n        return [null, { error: 'Ошибка в воркере 1', details: err }];\n    }\n})();",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 520,
+        "wires": [
+            [
+                "56edb1774f734651",
+                "1578f375d9b4d75f"
+            ]
+        ]
+    },
+    {
+        "id": "86bed67182f034d7",
+        "type": "inject",
+        "z": "57313f952856c7ea",
+        "g": "361041b32182672b",
+        "name": "Init Worker 1",
+        "props": [
+            {
+                "p": "payload",
+                "v": "true",
+                "t": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 440,
+        "wires": [
+            [
+                "48781a09da441aea"
+            ]
+        ]
+    },
+    {
+        "id": "0ce6ef6baa634708",
+        "type": "redis-in",
+        "z": "57313f952856c7ea",
+        "g": "361041b32182672b",
+        "server": "a0efbb89.5e42d8",
+        "command": "subscribe",
+        "name": "job",
+        "topic": "job",
+        "obj": true,
+        "timeout": 0,
+        "x": 210,
+        "y": 520,
+        "wires": [
+            [
+                "1e388e2102ad03c4",
+                "0d4e2d735c41ce44"
+            ]
+        ]
+    },
+    {
+        "id": "48781a09da441aea",
+        "type": "function",
+        "z": "57313f952856c7ea",
+        "g": "361041b32182672b",
+        "name": "Worker 1: Init",
+        "func": "// ==== Настройка ====\nlet ti_redis = context.global.get('redis');\n\n// Используем context.flow для получения ID воркера, если он уже существует, иначе генерируем новый\nconst ti_workerId = context.flow.get('ti_workerId') || 'worker:' + RED.util.generateId();\ncontext.flow.set('ti_workerId', ti_workerId);\n\n// Регистрируем воркера\n(async () => await ti_redis.set(ti_workerId, 1))();\nnode.status({fill:\"green\",shape:\"dot\",text:\"Воркер 1 запущен:\" + ti_workerId});\n\nmsg.workerID = ti_workerId;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0d4e2d735c41ce44",
+        "type": "debug",
+        "z": "57313f952856c7ea",
+        "g": "361041b32182672b",
+        "name": "debug 51",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "589e982f46173206",
+        "type": "redis-out",
+        "z": "57313f952856c7ea",
+        "g": "361041b32182672b",
+        "server": "a0efbb89.5e42d8",
+        "command": "publish",
+        "name": "",
+        "topic": "fjob",
+        "obj": true,
+        "x": 810,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "56edb1774f734651",
+        "type": "delay",
+        "z": "57313f952856c7ea",
+        "g": "361041b32182672b",
+        "name": "",
+        "pauseType": "random",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "0",
+        "randomLast": "1",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 660,
+        "y": 520,
+        "wires": [
+            [
+                "589e982f46173206"
+            ]
+        ]
+    },
+    {
+        "id": "1578f375d9b4d75f",
+        "type": "debug",
+        "z": "57313f952856c7ea",
+        "g": "361041b32182672b",
+        "name": "debug 64",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "e8509fcf172ca621",
+        "type": "group",
+        "z": "57313f952856c7ea",
+        "style": {
+            "stroke": "#2e333a",
+            "stroke-opacity": "1",
+            "fill": "#383c45",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#dddddd"
+        },
+        "nodes": [
+            "c0e69a6e39dbd7cd",
+            "4107a74c2ff365ea",
+            "711386902753ec00",
+            "c6c68ac8be7d5655",
+            "79dadd83ccc91310",
+            "b3bed7d429e5589e",
+            "34334fec50e9e2ef",
+            "d49b555294ad8b72"
+        ],
+        "x": 1094,
+        "y": 399,
+        "w": 732,
+        "h": 242
+    },
+    {
+        "id": "c0e69a6e39dbd7cd",
+        "type": "inject",
+        "z": "57313f952856c7ea",
+        "g": "e8509fcf172ca621",
+        "name": "Init Worker 2",
+        "props": [
+            {
+                "p": "payload",
+                "v": "true",
+                "t": "bool"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "bool",
+        "x": 1210,
+        "y": 440,
+        "wires": [
+            [
+                "4107a74c2ff365ea"
+            ]
+        ]
+    },
+    {
+        "id": "4107a74c2ff365ea",
+        "type": "function",
+        "z": "57313f952856c7ea",
+        "g": "e8509fcf172ca621",
+        "name": "Worker 2: Init",
+        "func": "// ==== Настройка ====\nlet ti_redis = context.global.get('redis');\n\n// Используем context.flow для получения ID воркера, если он уже существует, иначе генерируем новый\nconst ti_workerId = context.flow.get('ti_workerId2') || 'worker:' + RED.util.generateId();\ncontext.flow.set('ti_workerId2', ti_workerId);\n\n// Регистрируем воркера\n(async () => await ti_redis.set(ti_workerId, 1))();\nnode.status({fill:\"green\",shape:\"dot\",text:\"Воркер 2 запущен:\" + ti_workerId});\n\nmsg.workerID = ti_workerId;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "711386902753ec00",
+        "type": "function",
+        "z": "57313f952856c7ea",
+        "g": "e8509fcf172ca621",
+        "name": "Worker 2: Process Job",
+        "func": "// ==== Настройка ====\nlet ti_redis = context.global.get('redis');\n\n(async () => {\n    try {\n        // Получаем ID воркера из контекста Flow\n        const ti_workerId = context.flow.get('ti_workerId2');\n        // Получаем сообщение\n        let ti_task = msg.payload;\n        // Проверяем, предназначено ли сообщение этому воркеру\n        if (msg.payload.workerId !== ti_workerId) {\n            return; // Если нет, выходим из функции\n        }\n        node.warn('Воркер 2 получил задачу');\n\n        // Добавляем startTime и finishTime в taskData\n        const startTime = ti_task.startTime;\n\n        // Создаем финальный объект для отправки\n        const finalData = {\n            startTime: startTime,\n            task: ti_task.task,\n            bot_data: ti_task.bot_data, // Добавляем данные бота\n            workerId: ti_workerId,  // Добавляем workerId\n            bot_id: ti_task.task.bot_id // Добавляем bot_id\n        };\n\n        // Имитация выполнения задачи\n        await new Promise(resolve => setTimeout(resolve, Math.random() * (3000 - 1000) + 1000));\n\n        msg.payload = finalData;\n        msg.topic = \"fjob\";\n\n        node.send(msg);\n    } catch (err) {\n        node.error(\"Ошибка в воркере 2: \" + err);\n        return [null, { error: 'Ошибка в воркере 2', details: err }];\n    }\n})();",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1380,
+        "y": 540,
+        "wires": [
+            [
+                "34334fec50e9e2ef",
+                "d49b555294ad8b72"
+            ]
+        ]
+    },
+    {
+        "id": "c6c68ac8be7d5655",
+        "type": "redis-in",
+        "z": "57313f952856c7ea",
+        "g": "e8509fcf172ca621",
+        "server": "a0efbb89.5e42d8",
+        "command": "subscribe",
+        "name": "job",
+        "topic": "job",
+        "obj": true,
+        "timeout": 0,
+        "x": 1190,
+        "y": 540,
+        "wires": [
+            [
+                "79dadd83ccc91310",
+                "711386902753ec00"
+            ]
+        ]
+    },
+    {
+        "id": "79dadd83ccc91310",
+        "type": "debug",
+        "z": "57313f952856c7ea",
+        "g": "e8509fcf172ca621",
+        "name": "debug 53",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "b3bed7d429e5589e",
+        "type": "redis-out",
+        "z": "57313f952856c7ea",
+        "g": "e8509fcf172ca621",
+        "server": "a0efbb89.5e42d8",
+        "command": "publish",
+        "name": "",
+        "topic": "fjob",
+        "obj": true,
+        "x": 1750,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "34334fec50e9e2ef",
+        "type": "delay",
+        "z": "57313f952856c7ea",
+        "g": "e8509fcf172ca621",
+        "name": "",
+        "pauseType": "random",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "0",
+        "randomLast": "1",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1600,
+        "y": 540,
+        "wires": [
+            [
+                "b3bed7d429e5589e"
+            ]
+        ]
+    },
+    {
+        "id": "d49b555294ad8b72",
+        "type": "debug",
+        "z": "57313f952856c7ea",
+        "g": "e8509fcf172ca621",
+        "name": "debug 65",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1600,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "a0efbb89.5e42d8",
+        "type": "redis-config",
+        "name": "local",
+        "options": "redis://:YzRAdGgkF25g@redis:6379",
+        "cluster": false,
+        "optionsType": "str"
+    },
+    {
+        "id": "d403defdfbeecc46",
+        "type": "ui-group",
+        "name": "Мониторинг",
+        "page": "d762fbf9ae7f207a",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "d762fbf9ae7f207a",
+        "type": "ui-page",
+        "name": "Мониторинг",
+        "ui": "2080f36ce7985358",
+        "path": "/mon",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "6f84b4e31dd5cbe3",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "2080f36ce7985358",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control",
+            "ui-switch",
+            "ui-form",
+            "ui-table",
+            "ui-template"
+        ],
+        "showPathInSidebar": false,
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true
+    },
+    {
+        "id": "6f84b4e31dd5cbe3",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    }
+]

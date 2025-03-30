@@ -1,0 +1,17 @@
+{
+  "name": "service-balance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service-balance.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node service-balance.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-binance-api": "0.13.0",
+    "node-fetch": "^2.6.0",
+    "redis": "^3.1.2"
+  }
+}

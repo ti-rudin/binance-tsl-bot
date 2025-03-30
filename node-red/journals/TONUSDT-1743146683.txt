@@ -1,0 +1,173 @@
+Fri Mar 28 2025 10:47:00 -1743148020513 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708255497,"orderListId":-1,"clientOrderId":"s6LWH7NT6hP8diRboqAEwT","transactTime":1743148020346}
+Fri Mar 28 2025 10:47:00 -1743148020515 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:47:02 -1743148022382 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:47:03 -1743148023858 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708255781,"orderListId":-1,"clientOrderId":"q5xHGiRtiXxrqXPACsoyzo","transactTime":1743148023701}
+Fri Mar 28 2025 10:47:03 -1743148023859 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:49:00 -1743148140212 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:49:01 -1743148141497 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708263181,"orderListId":-1,"clientOrderId":"5EkPgzOzARxwpxOV2qi9TH","transactTime":1743148141327}
+Fri Mar 28 2025 10:49:01 -1743148141497 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:49:02 -1743148142826 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:49:04 -1743148144875 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708263601,"orderListId":-1,"clientOrderId":"7vZs0pcmtsm7kmDYLajDll","transactTime":1743148144704}
+Fri Mar 28 2025 10:49:04 -1743148144875 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:49:05 -1743148145861 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:49:06 -1743148146871 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708263804,"orderListId":-1,"clientOrderId":"FZlI7MA2wPF2WJsqCTEgZp","transactTime":1743148146700}
+Fri Mar 28 2025 10:49:06 -1743148146871 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:49:10 -1743148150305 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:49:11 -1743148151929 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708264376,"orderListId":-1,"clientOrderId":"8NNiCYRPB07FeOiFwt6UUL","transactTime":1743148151772}
+Fri Mar 28 2025 10:49:11 -1743148151930 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:49:12 -1743148152849 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:49:14 -1743148154252 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708264623,"orderListId":-1,"clientOrderId":"ga5Y9Mzw1lq64sIaotNidr","transactTime":1743148154078}
+Fri Mar 28 2025 10:49:14 -1743148154253 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:49:16 -1743148156273 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:49:17 -1743148157281 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708265162,"orderListId":-1,"clientOrderId":"gDtkCNAabyUOwJlsLHzT5l","transactTime":1743148157120}
+Fri Mar 28 2025 10:49:17 -1743148157281 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:49:19 -1743148159322 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:49:20 -1743148160379 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708265337,"orderListId":-1,"clientOrderId":"rjscWTLFx7p6g89ivneR5k","transactTime":1743148160210}
+Fri Mar 28 2025 10:49:20 -1743148160380 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:49:26 -1743148166804 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:49:27 -1743148167805 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708265709,"orderListId":-1,"clientOrderId":"zL3J5FzXLqHC4GY67Oh8Ak","transactTime":1743148167642}
+Fri Mar 28 2025 10:49:27 -1743148167806 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:49:30 -1743148170343 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:49:31 -1743148171343 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708265906,"orderListId":-1,"clientOrderId":"FLMoJkhP2A81pMrjfXIYuU","transactTime":1743148171178}
+Fri Mar 28 2025 10:49:31 -1743148171343 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:51:53 -1743148313774 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:51:54 -1743148314780 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708271832,"orderListId":-1,"clientOrderId":"xikLsLDCsTA8YmHXLS7fBg","transactTime":1743148314621}
+Fri Mar 28 2025 10:51:54 -1743148314781 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:52:02 -1743148322279 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:52:03 -1743148323249 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708272382,"orderListId":-1,"clientOrderId":"AWwIPAWElwAe6mAVToKVC3","transactTime":1743148323083}
+Fri Mar 28 2025 10:52:03 -1743148323251 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 10:53:23 -1743148403548 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 10:53:24 -1743148404568 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708277483,"orderListId":-1,"clientOrderId":"elenWxYCxDcjN8wi7xkCCr","transactTime":1743148404407}
+Fri Mar 28 2025 10:53:24 -1743148404568 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:02:53 -1743148973826 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:02:55 -1743148975215 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708307216,"orderListId":-1,"clientOrderId":"e4mf5hzodplG5Oj1rkbelE","transactTime":1743148975055}
+Fri Mar 28 2025 11:02:55 -1743148975215 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:03:06 -1743148986648 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:03:07 -1743148987816 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708309219,"orderListId":-1,"clientOrderId":"SEhGkOy5MAR94zb3S5VLQJ","transactTime":1743148987660}
+Fri Mar 28 2025 11:03:07 -1743148987817 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:03:09 -1743148989851 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:03:10 -1743148990905 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708309509,"orderListId":-1,"clientOrderId":"3IyPoZZgN6oR99hdZThyod","transactTime":1743148990743}
+Fri Mar 28 2025 11:03:10 -1743148990906 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:03:12 -1743148992772 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:03:13 -1743148993735 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708309707,"orderListId":-1,"clientOrderId":"rSlpR7ZhkIoS04pPyJZJxC","transactTime":1743148993582}
+Fri Mar 28 2025 11:03:13 -1743148993736 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:03:14 -1743148994830 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:03:15 -1743148995816 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708310062,"orderListId":-1,"clientOrderId":"IudKCwhrnjDEjSf1PVxQtH","transactTime":1743148995657}
+Fri Mar 28 2025 11:03:15 -1743148995817 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:03:17 -1743148997345 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:03:18 -1743148998369 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708310237,"orderListId":-1,"clientOrderId":"DI9yjDVMBOCM806FBwqg2n","transactTime":1743148998210}
+Fri Mar 28 2025 11:03:18 -1743148998369 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:03:21 -1743149001408 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:03:22 -1743149002893 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708310685,"orderListId":-1,"clientOrderId":"d4ttGdrbuQVah1iIPZdocq","transactTime":1743149002736}
+Fri Mar 28 2025 11:03:22 -1743149002893 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:03:23 -1743149003869 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:03:24 -1743149004885 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708310747,"orderListId":-1,"clientOrderId":"k8XXglB0dxe7choYuztQLn","transactTime":1743149004721}
+Fri Mar 28 2025 11:03:24 -1743149004885 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:03:41 -1743149021964 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:03:42 -1743149022979 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708312135,"orderListId":-1,"clientOrderId":"cH9ydkflssosdN9FskIFrO","transactTime":1743149022825}
+Fri Mar 28 2025 11:03:42 -1743149022979 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:03:46 -1743149026065 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:03:47 -1743149027100 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708312682,"orderListId":-1,"clientOrderId":"NyFFYtFZSQ4j3xRsM3HwNV","transactTime":1743149026942}
+Fri Mar 28 2025 11:03:47 -1743149027100 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:03:54 -1743149034110 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:03:55 -1743149035055 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708313380,"orderListId":-1,"clientOrderId":"DNT0d5y5OSqWxDtYar3pGG","transactTime":1743149034902}
+Fri Mar 28 2025 11:03:55 -1743149035055 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:07:18 -1743149238289 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:07:19 -1743149239366 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708324305,"orderListId":-1,"clientOrderId":"rEmEnw0ADZ2juSnU3ohCeY","transactTime":1743149239211}
+Fri Mar 28 2025 11:07:19 -1743149239366 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:07:20 -1743149240322 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:07:21 -1743149241358 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708324347,"orderListId":-1,"clientOrderId":"Q1lNUzhY7TnopVfJD94JjP","transactTime":1743149241201}
+Fri Mar 28 2025 11:07:21 -1743149241358 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:07:22 -1743149242352 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:07:23 -1743149243762 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708324433,"orderListId":-1,"clientOrderId":"1ekwsO8qNGFRZeyaXqixfo","transactTime":1743149243608}
+Fri Mar 28 2025 11:07:23 -1743149243762 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:07:24 -1743149244799 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:07:25 -1743149245801 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708324556,"orderListId":-1,"clientOrderId":"MlKzoq0d8x6WRcJFRESqxU","transactTime":1743149245639}
+Fri Mar 28 2025 11:07:25 -1743149245801 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:07:27 -1743149247352 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:07:28 -1743149248337 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708324794,"orderListId":-1,"clientOrderId":"1Tr9qJhRewv2fZ1OOxBrpQ","transactTime":1743149248179}
+Fri Mar 28 2025 11:07:28 -1743149248337 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:07:29 -1743149249337 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:07:30 -1743149250346 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708324957,"orderListId":-1,"clientOrderId":"rsJtSobgq0iFSqz5hFcEtG","transactTime":1743149250188}
+Fri Mar 28 2025 11:07:30 -1743149250346 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:08:09 -1743149289675 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:08:10 -1743149290674 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708327283,"orderListId":-1,"clientOrderId":"hISUnwZYoeNPngGuSMZQtn","transactTime":1743149290518}
+Fri Mar 28 2025 11:08:10 -1743149290674 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:08:12 -1743149292100 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:08:13 -1743149293198 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708327580,"orderListId":-1,"clientOrderId":"qaCbLK4ZQ7aWi5yyAOpapQ","transactTime":1743149293037}
+Fri Mar 28 2025 11:08:13 -1743149293199 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:10:26 -1743149426333 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:10:27 -1743149427669 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708339282,"orderListId":-1,"clientOrderId":"peKjDjRXxiuQG39XAxkur1","transactTime":1743149427506}
+Fri Mar 28 2025 11:10:27 -1743149427670 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:10:28 -1743149428843 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:10:29 -1743149429889 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708339419,"orderListId":-1,"clientOrderId":"P4qv44iuEEtsc2WRyb9xLU","transactTime":1743149429729}
+Fri Mar 28 2025 11:10:29 -1743149429889 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:10:31 -1743149431818 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 11:10:32 -1743149432826 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":708339856,"orderListId":-1,"clientOrderId":"CEWkMM5g4sLQKbGkYuH68h","transactTime":1743149432665}
+Fri Mar 28 2025 11:10:32 -1743149432827 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 11:13:33 -1743149613478 : [ order_status_on_binance] Успешно
+Fri Mar 28 2025 11:13:34 -1743149614344 : [registration-sdelki] [3] Registration complete
+Fri Mar 28 2025 19:15:25 -1743178525760 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709830934,"orderListId":-1,"clientOrderId":"S1SGP8hsm4dRZmcxX8qHZO","transactTime":1743178525620}
+Fri Mar 28 2025 19:15:25 -1743178525761 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:15:41 -1743178541098 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:15:42 -1743178542111 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709831874,"orderListId":-1,"clientOrderId":"XlDo6y86BXvBBOipXN00zM","transactTime":1743178541970}
+Fri Mar 28 2025 19:15:42 -1743178542111 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:20:58 -1743178858905 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:21:00 -1743178860135 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709852624,"orderListId":-1,"clientOrderId":"Y3Ok7b16lM5w0UTXfCdxfv","transactTime":1743178859992}
+Fri Mar 28 2025 19:21:00 -1743178860135 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:21:06 -1743178866442 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:21:07 -1743178867444 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709853122,"orderListId":-1,"clientOrderId":"OAWytE9tlVLCLL4X8UvSt5","transactTime":1743178867300}
+Fri Mar 28 2025 19:21:07 -1743178867444 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:21:12 -1743178872900 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:21:13 -1743178873949 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709853522,"orderListId":-1,"clientOrderId":"ZFbE44lINc2lqqR6PuUWpI","transactTime":1743178873806}
+Fri Mar 28 2025 19:21:13 -1743178873949 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:21:14 -1743178874955 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:21:15 -1743178875965 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709853669,"orderListId":-1,"clientOrderId":"q1NWfdpNEnpsMwqYYNhtY8","transactTime":1743178875823}
+Fri Mar 28 2025 19:21:15 -1743178875965 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:21:18 -1743178878934 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:21:19 -1743178879952 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709854016,"orderListId":-1,"clientOrderId":"UfywYrNmwenhgp3rYJJSxa","transactTime":1743178879811}
+Fri Mar 28 2025 19:21:19 -1743178879952 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:21:23 -1743178883486 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:21:24 -1743178884515 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709854210,"orderListId":-1,"clientOrderId":"6jZlTYdxb1MkwdacbJVUDh","transactTime":1743178884374}
+Fri Mar 28 2025 19:21:24 -1743178884515 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:22:32 -1743178952150 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:22:33 -1743178953146 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709858128,"orderListId":-1,"clientOrderId":"dpHwUHPtaNjdwVgvrun7gN","transactTime":1743178953005}
+Fri Mar 28 2025 19:22:33 -1743178953147 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:22:38 -1743178958557 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:22:39 -1743178959559 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709858514,"orderListId":-1,"clientOrderId":"3jYw5HkQWDLJcMdJn1MnJa","transactTime":1743178959418}
+Fri Mar 28 2025 19:22:39 -1743178959560 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:22:40 -1743178960583 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:22:41 -1743178961581 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709858546,"orderListId":-1,"clientOrderId":"EvKucFpcuxrFANTeP09W39","transactTime":1743178961438}
+Fri Mar 28 2025 19:22:41 -1743178961582 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:23:34 -1743179014280 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:23:35 -1743179015742 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709860182,"orderListId":-1,"clientOrderId":"0zRaVTq6hiyNvv6SVCbHlt","transactTime":1743179015599}
+Fri Mar 28 2025 19:23:35 -1743179015742 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:23:38 -1743179018759 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:23:39 -1743179019755 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709860364,"orderListId":-1,"clientOrderId":"g3cvQ1aaJ8q43dijWAJvcF","transactTime":1743179019613}
+Fri Mar 28 2025 19:23:39 -1743179019755 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:23:47 -1743179027266 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:23:48 -1743179028344 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709860642,"orderListId":-1,"clientOrderId":"FKQTTfd5RYwivZx0WapzGW","transactTime":1743179028169}
+Fri Mar 28 2025 19:23:48 -1743179028345 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:25:59 -1743179159501 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:26:01 -1743179161067 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709869933,"orderListId":-1,"clientOrderId":"GaWmF5iLtSNS23xlcqZAv0","transactTime":1743179160924}
+Fri Mar 28 2025 19:26:01 -1743179161067 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:26:06 -1743179166619 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:26:08 -1743179168632 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709870540,"orderListId":-1,"clientOrderId":"loJ6NQ7Pfl5EwPzcxrmkoK","transactTime":1743179168490}
+Fri Mar 28 2025 19:26:08 -1743179168632 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:26:09 -1743179169639 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:26:11 -1743179171095 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709870804,"orderListId":-1,"clientOrderId":"hUpcsmzHtmVy6hDBC8PrCU","transactTime":1743179170950}
+Fri Mar 28 2025 19:26:11 -1743179171096 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:26:12 -1743179172093 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:26:13 -1743179173072 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709871160,"orderListId":-1,"clientOrderId":"lmtfqF8B7HpizJ7UTCXcAX","transactTime":1743179172928}
+Fri Mar 28 2025 19:26:13 -1743179173072 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:26:14 -1743179174036 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:26:15 -1743179175045 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709871812,"orderListId":-1,"clientOrderId":"BvDdsXmhE3iOeSaLzH3XnQ","transactTime":1743179174899}
+Fri Mar 28 2025 19:26:15 -1743179175046 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:26:20 -1743179180127 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:26:21 -1743179181056 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709874174,"orderListId":-1,"clientOrderId":"FkHiGLfeodpBYrfiOR8YNC","transactTime":1743179180913}
+Fri Mar 28 2025 19:26:21 -1743179181056 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:26:22 -1743179182196 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 19:26:23 -1743179183159 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"TONUSDT","orderId":709875805,"orderListId":-1,"clientOrderId":"J1HwkBtJxnZ72tRQ69Irza","transactTime":1743179183017}
+Fri Mar 28 2025 19:26:23 -1743179183159 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 19:26:24 -1743179184076 : [ order_status_on_binance] Успешно
+Fri Mar 28 2025 19:26:25 -1743179185004 : [registration-sdelki] [3] Registration complete

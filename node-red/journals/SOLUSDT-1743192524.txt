@@ -1,0 +1,892 @@
+Fri Mar 28 2025 23:13:19 -1743192799183 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244231879,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3f67caef4c4c4b5da8146f","transactTime":1743192799034}
+Fri Mar 28 2025 23:13:19 -1743192799184 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:13:28 -1743192808635 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 23:15:06 -1743192906750 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244242350,"orderListId":-1,"clientOrderId":"x-HNA2TXFJac816e771e734bd589fa8a","transactTime":1743192906606}
+Fri Mar 28 2025 23:15:06 -1743192906750 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:15:10 -1743192910741 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 23:15:14 -1743192914472 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244242896,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc14e09c594ec4177bc0091","transactTime":1743192914329}
+Fri Mar 28 2025 23:15:14 -1743192914472 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:15:27 -1743192927344 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 23:15:31 -1743192931429 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244244071,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3fad8254d1a149f4b5dd60","transactTime":1743192931285}
+Fri Mar 28 2025 23:15:31 -1743192931430 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:15:35 -1743192935380 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 23:15:39 -1743192939393 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244245184,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ560651c2f2414e709cbe1c","transactTime":1743192939249}
+Fri Mar 28 2025 23:15:39 -1743192939393 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:15:47 -1743192947633 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 23:31:08 -1743193868550 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244333481,"orderListId":-1,"clientOrderId":"x-HNA2TXFJd879bede353e4da9b19acc","transactTime":1743193868404}
+Fri Mar 28 2025 23:31:08 -1743193868550 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:31:22 -1743193882111 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 23:31:27 -1743193887075 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244336163,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3e5c915ab8a74468982a44","transactTime":1743193886937}
+Fri Mar 28 2025 23:31:27 -1743193887075 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:31:28 -1743193888095 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 23:31:29 -1743193889139 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244336856,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ1d1ac746a7a34883a9d491","transactTime":1743193889002}
+Fri Mar 28 2025 23:31:29 -1743193889140 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:31:57 -1743193917411 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 23:31:58 -1743193918330 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244338836,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ538250dc6e6e4e2494c5a9","transactTime":1743193918192}
+Fri Mar 28 2025 23:31:58 -1743193918330 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:31:59 -1743193919401 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 23:32:00 -1743193920337 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244339907,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ028e69e311cf44afadf88b","transactTime":1743193920199}
+Fri Mar 28 2025 23:32:00 -1743193920337 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:32:10 -1743193930465 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 23:32:11 -1743193931447 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244340962,"orderListId":-1,"clientOrderId":"x-HNA2TXFJa7cf6fb095cf4e1f9fe38b","transactTime":1743193931309}
+Fri Mar 28 2025 23:32:11 -1743193931447 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:32:14 -1743193934526 : [ sell_cancel_on_binance] Успешно
+Fri Mar 28 2025 23:32:15 -1743193935454 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11244341256,"orderListId":-1,"clientOrderId":"x-HNA2TXFJfc63ceb46c124734bf7a41","transactTime":1743193935319}
+Fri Mar 28 2025 23:32:15 -1743193935454 : [ sell_on_binance] Успешно
+Fri Mar 28 2025 23:36:44 -1743194204620 : [ order_status_on_binance] Успешно
+Fri Mar 28 2025 23:36:45 -1743194205864 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 02:54:22 -1743206062125 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245417928,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ7125af2212314d0b979196","transactTime":1743206061985}
+Sat Mar 29 2025 02:54:22 -1743206062125 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 02:54:24 -1743206064018 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 02:54:25 -1743206065026 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245418107,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ39e8b99ab30a4952b6c483","transactTime":1743206064890}
+Sat Mar 29 2025 02:54:25 -1743206065026 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 02:54:42 -1743206082624 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 02:54:43 -1743206083677 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245418819,"orderListId":-1,"clientOrderId":"x-HNA2TXFJfc4443e54e30441cb4dbe7","transactTime":1743206083541}
+Sat Mar 29 2025 02:54:43 -1743206083677 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:01:02 -1743206462817 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:01:04 -1743206464108 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245436082,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ8cf0219f68664469986524","transactTime":1743206463968}
+Sat Mar 29 2025 03:01:04 -1743206464109 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:01:20 -1743206480209 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:01:21 -1743206481243 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245437083,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ2c79a36a982243598e1972","transactTime":1743206481104}
+Sat Mar 29 2025 03:01:21 -1743206481243 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:02:11 -1743206531070 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:02:12 -1743206532079 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245442246,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ202c8a0f05f743da88792e","transactTime":1743206531942}
+Sat Mar 29 2025 03:02:12 -1743206532080 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:02:12 -1743206532996 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:02:14 -1743206534033 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245442439,"orderListId":-1,"clientOrderId":"x-HNA2TXFJdd19cbaed86a4fa2b766a1","transactTime":1743206533894}
+Sat Mar 29 2025 03:02:14 -1743206534033 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:02:16 -1743206536059 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:02:17 -1743206537076 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245442902,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe1d4e23d4d244b6e901f6b","transactTime":1743206536938}
+Sat Mar 29 2025 03:02:17 -1743206537076 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:02:25 -1743206545628 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:02:26 -1743206546546 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245444070,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ912d127e647d46fa998cd7","transactTime":1743206546408}
+Sat Mar 29 2025 03:02:26 -1743206546546 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:02:27 -1743206547606 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:02:29 -1743206549138 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245444244,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ5f7c598369af46519146f2","transactTime":1743206548999}
+Sat Mar 29 2025 03:02:29 -1743206549138 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:02:34 -1743206554646 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:02:35 -1743206555692 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245444834,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf00a53a4c79d42a08bd854","transactTime":1743206555530}
+Sat Mar 29 2025 03:02:35 -1743206555694 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:02:36 -1743206556735 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:02:38 -1743206558097 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245445279,"orderListId":-1,"clientOrderId":"x-HNA2TXFJb803ea6f6b0f4683a38191","transactTime":1743206557959}
+Sat Mar 29 2025 03:02:38 -1743206558097 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:02:43 -1743206563207 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:02:44 -1743206564202 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245445426,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ96b3f0dc12a14483bd1ba5","transactTime":1743206564064}
+Sat Mar 29 2025 03:02:44 -1743206564202 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:02:47 -1743206567187 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:02:48 -1743206568222 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245446063,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ369a23f8cc294bc080e246","transactTime":1743206568083}
+Sat Mar 29 2025 03:02:48 -1743206568222 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:02:57 -1743206577819 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:02:58 -1743206578836 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245448959,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ0e20c5bb01544b478c061b","transactTime":1743206578699}
+Sat Mar 29 2025 03:02:58 -1743206578836 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:02:59 -1743206579874 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:03:00 -1743206580804 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245449258,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ0a01988213fa4d14b25ec6","transactTime":1743206580665}
+Sat Mar 29 2025 03:03:00 -1743206580804 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:06:49 -1743206809556 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 03:06:50 -1743206810401 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 03:08:32 -1743206912818 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245478882,"orderListId":-1,"clientOrderId":"x-HNA2TXFJec48e790c93d45679c9ead","transactTime":1743206912680}
+Sat Mar 29 2025 03:08:32 -1743206912818 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:08:33 -1743206913833 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:08:34 -1743206914844 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245478978,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ33f0f4da05f24109b6f385","transactTime":1743206914707}
+Sat Mar 29 2025 03:08:34 -1743206914845 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:08:56 -1743206936965 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:08:57 -1743206937905 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245479857,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc0e9555e43684aac9d163f","transactTime":1743206937767}
+Sat Mar 29 2025 03:08:57 -1743206937905 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:09:03 -1743206943950 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:09:04 -1743206944886 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245480280,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ7387ecc9c8b14202b03690","transactTime":1743206944746}
+Sat Mar 29 2025 03:09:04 -1743206944886 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:09:05 -1743206945910 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:09:06 -1743206946942 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245480712,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ2eccd8af1892483e974dc3","transactTime":1743206946805}
+Sat Mar 29 2025 03:09:06 -1743206946943 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:09:10 -1743206950902 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:09:11 -1743206951935 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245481258,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ869a23069e804abb845a2e","transactTime":1743206951799}
+Sat Mar 29 2025 03:09:11 -1743206951936 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:09:12 -1743206952944 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:09:13 -1743206953959 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245481478,"orderListId":-1,"clientOrderId":"x-HNA2TXFJaa95b4edc87247f3ba005b","transactTime":1743206953822}
+Sat Mar 29 2025 03:09:13 -1743206953959 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:09:15 -1743206955929 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:09:16 -1743206956964 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245481930,"orderListId":-1,"clientOrderId":"x-HNA2TXFJef7c760f38504dafa7d01c","transactTime":1743206956827}
+Sat Mar 29 2025 03:09:16 -1743206956964 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:09:28 -1743206968583 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:09:29 -1743206969604 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245483292,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe6b854df431c4c3c9bceff","transactTime":1743206969467}
+Sat Mar 29 2025 03:09:29 -1743206969604 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:09:30 -1743206970509 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:09:31 -1743206971522 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245483529,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ706498c9c25f4118855387","transactTime":1743206971385}
+Sat Mar 29 2025 03:09:31 -1743206971522 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:09:32 -1743206972557 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:09:33 -1743206973550 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245483780,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc0eb62cb8cdb45d7810be0","transactTime":1743206973413}
+Sat Mar 29 2025 03:09:33 -1743206973550 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:09:34 -1743206974639 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:09:35 -1743206975646 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245483883,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ2e4f5d71d3bc47aa95a72a","transactTime":1743206975510}
+Sat Mar 29 2025 03:09:35 -1743206975647 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:09:37 -1743206977206 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:09:38 -1743206978072 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245484126,"orderListId":-1,"clientOrderId":"x-HNA2TXFJa652b59a4dee41b9805874","transactTime":1743206977934}
+Sat Mar 29 2025 03:09:38 -1743206978072 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:11:55 -1743207115954 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:11:57 -1743207117004 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245495491,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ884da578c8c84002bb367b","transactTime":1743207116866}
+Sat Mar 29 2025 03:11:57 -1743207117004 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:13:18 -1743207198821 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:13:19 -1743207199834 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245500182,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ2d76c773f8694dd98f72ea","transactTime":1743207199696}
+Sat Mar 29 2025 03:13:19 -1743207199834 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:13:20 -1743207200844 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:13:21 -1743207201868 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245500712,"orderListId":-1,"clientOrderId":"x-HNA2TXFJd822911a168a4fe9947b66","transactTime":1743207201730}
+Sat Mar 29 2025 03:13:21 -1743207201868 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:13:22 -1743207202891 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:13:23 -1743207203807 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245500828,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ540b91907ecf4a6a85bcf4","transactTime":1743207203669}
+Sat Mar 29 2025 03:13:23 -1743207203807 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:13:26 -1743207206837 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:13:27 -1743207207853 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245501151,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ731300b1bc6c4573bd1ff4","transactTime":1743207207713}
+Sat Mar 29 2025 03:13:27 -1743207207853 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:13:29 -1743207209405 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:13:30 -1743207210378 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245501227,"orderListId":-1,"clientOrderId":"x-HNA2TXFJa2251104bd5d4b0cbf6266","transactTime":1743207210238}
+Sat Mar 29 2025 03:13:30 -1743207210378 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:13:34 -1743207214911 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:13:35 -1743207215842 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245501716,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ98d723b1d9f04035b1dbaa","transactTime":1743207215704}
+Sat Mar 29 2025 03:13:35 -1743207215842 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:14:00 -1743207240464 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:14:01 -1743207241381 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245503269,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ45a51fb9a9a04b358aabb4","transactTime":1743207241244}
+Sat Mar 29 2025 03:14:01 -1743207241381 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:14:02 -1743207242399 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:14:03 -1743207243430 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245503465,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ94a9bf79bb12463586aa39","transactTime":1743207243294}
+Sat Mar 29 2025 03:14:03 -1743207243431 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:14:18 -1743207258415 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:14:19 -1743207259427 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245504506,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe277d932b4ff45eaa467ab","transactTime":1743207259290}
+Sat Mar 29 2025 03:14:19 -1743207259428 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:14:55 -1743207295028 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:14:56 -1743207296178 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245507234,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3e932ec419fe4ca694393d","transactTime":1743207296039}
+Sat Mar 29 2025 03:14:56 -1743207296179 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:14:57 -1743207297228 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:14:58 -1743207298169 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245507308,"orderListId":-1,"clientOrderId":"x-HNA2TXFJa0a33432d2374b4d9ad028","transactTime":1743207298020}
+Sat Mar 29 2025 03:14:58 -1743207298169 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:17:05 -1743207425121 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:17:06 -1743207426234 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245519000,"orderListId":-1,"clientOrderId":"x-HNA2TXFJff00764c466d4b7fa37d71","transactTime":1743207426095}
+Sat Mar 29 2025 03:17:06 -1743207426234 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:17:07 -1743207427145 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:17:08 -1743207428166 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245519416,"orderListId":-1,"clientOrderId":"x-HNA2TXFJca47b5aeebb04410a5dc19","transactTime":1743207428028}
+Sat Mar 29 2025 03:17:08 -1743207428166 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:17:47 -1743207467460 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:17:48 -1743207468444 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245523044,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ66854f87afed4df3859514","transactTime":1743207468306}
+Sat Mar 29 2025 03:17:48 -1743207468444 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:17:52 -1743207472940 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:17:53 -1743207473981 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245525028,"orderListId":-1,"clientOrderId":"x-HNA2TXFJa6bb603f15ba45dfabc00c","transactTime":1743207473844}
+Sat Mar 29 2025 03:17:53 -1743207473982 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:17:54 -1743207474966 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:17:55 -1743207475978 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245525611,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf2d8c5c95360475d818661","transactTime":1743207475841}
+Sat Mar 29 2025 03:17:55 -1743207475978 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:18:01 -1743207481455 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:18:02 -1743207482587 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245526588,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe9a9524d5ada42b38cd77b","transactTime":1743207482445}
+Sat Mar 29 2025 03:18:02 -1743207482587 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:18:04 -1743207484083 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:18:05 -1743207485061 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245527071,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ1f24a56442fe4f3a8087e5","transactTime":1743207484924}
+Sat Mar 29 2025 03:18:05 -1743207485062 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:18:07 -1743207487020 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:18:08 -1743207488052 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245527458,"orderListId":-1,"clientOrderId":"x-HNA2TXFJca9a9eb395ef4e9594285a","transactTime":1743207487915}
+Sat Mar 29 2025 03:18:08 -1743207488053 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:18:20 -1743207500139 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:18:21 -1743207501059 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245529356,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ02a353bd2d8c41c89d3c9e","transactTime":1743207500921}
+Sat Mar 29 2025 03:18:21 -1743207501059 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:18:22 -1743207502077 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:18:23 -1743207503103 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245529507,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ46819b2df9e0487cb02f9f","transactTime":1743207502965}
+Sat Mar 29 2025 03:18:23 -1743207503104 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:18:25 -1743207505138 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:18:26 -1743207506095 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245529724,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ10fd2692d5764fa98386f8","transactTime":1743207505952}
+Sat Mar 29 2025 03:18:26 -1743207506095 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:18:34 -1743207514612 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:18:35 -1743207515652 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245530433,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ2a7d22c0315149d3bca35a","transactTime":1743207515490}
+Sat Mar 29 2025 03:18:35 -1743207515653 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:18:38 -1743207518695 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:18:39 -1743207519746 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245530902,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ44a47424bfdc4be4927331","transactTime":1743207519608}
+Sat Mar 29 2025 03:18:39 -1743207519746 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:18:41 -1743207521689 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:18:42 -1743207522889 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245532503,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9410c1fde93f447eb6aebe","transactTime":1743207522728}
+Sat Mar 29 2025 03:18:42 -1743207522889 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:19:38 -1743207578657 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 03:19:39 -1743207579516 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 03:22:00 -1743207720677 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245549383,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9fde915cca9743f1850ef2","transactTime":1743207720538}
+Sat Mar 29 2025 03:22:00 -1743207720678 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:22:03 -1743207723125 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:22:04 -1743207724177 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245550212,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf85abccf6fe04181aca45e","transactTime":1743207724037}
+Sat Mar 29 2025 03:22:04 -1743207724178 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:22:06 -1743207726218 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:22:07 -1743207727229 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245550382,"orderListId":-1,"clientOrderId":"x-HNA2TXFJa0351e5e9d29436d9d2863","transactTime":1743207727090}
+Sat Mar 29 2025 03:22:07 -1743207727230 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:22:20 -1743207740290 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:22:21 -1743207741338 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245552320,"orderListId":-1,"clientOrderId":"x-HNA2TXFJbb79b9195fb64eb3b0807b","transactTime":1743207741199}
+Sat Mar 29 2025 03:22:21 -1743207741338 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:22:22 -1743207742808 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:22:23 -1743207743980 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245552473,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ64a28dda659a4a0d972966","transactTime":1743207743822}
+Sat Mar 29 2025 03:22:23 -1743207743980 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:22:31 -1743207751917 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:22:32 -1743207752860 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245552914,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf9666b840c0f44bcb217d4","transactTime":1743207752722}
+Sat Mar 29 2025 03:22:32 -1743207752860 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:22:40 -1743207760956 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:22:41 -1743207761887 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245553658,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf202c041ebbc459aa9766b","transactTime":1743207761745}
+Sat Mar 29 2025 03:22:41 -1743207761888 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:22:43 -1743207763451 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:22:44 -1743207764488 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245553993,"orderListId":-1,"clientOrderId":"x-HNA2TXFJb862905985624f08b9e965","transactTime":1743207764349}
+Sat Mar 29 2025 03:22:44 -1743207764488 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:22:56 -1743207776531 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:22:57 -1743207777579 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245554517,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3b8ec8f1639144998dfb9c","transactTime":1743207777436}
+Sat Mar 29 2025 03:22:57 -1743207777579 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:23:00 -1743207780529 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:23:01 -1743207781602 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245554620,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ8e995c786edc4800baebf8","transactTime":1743207781459}
+Sat Mar 29 2025 03:23:01 -1743207781602 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:23:26 -1743207806797 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:23:27 -1743207807727 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245556278,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ8a9f6520770e4a49b422b3","transactTime":1743207807589}
+Sat Mar 29 2025 03:23:27 -1743207807727 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:23:31 -1743207811339 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:23:32 -1743207812289 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245556601,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc28c887cbe0f43d295991e","transactTime":1743207812146}
+Sat Mar 29 2025 03:23:32 -1743207812289 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:23:44 -1743207824847 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:23:45 -1743207825875 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245557902,"orderListId":-1,"clientOrderId":"x-HNA2TXFJfc442662a0db4f748e96a3","transactTime":1743207825732}
+Sat Mar 29 2025 03:23:45 -1743207825875 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:24:11 -1743207851417 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:24:12 -1743207852440 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245562705,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ08554f6ac5064a1e8b2c2d","transactTime":1743207852297}
+Sat Mar 29 2025 03:24:12 -1743207852440 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:24:14 -1743207854115 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:24:15 -1743207855187 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245564512,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ5ff62c3580274b7b90e7c0","transactTime":1743207855044}
+Sat Mar 29 2025 03:24:15 -1743207855187 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:24:32 -1743207872020 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 03:24:33 -1743207873037 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 03:27:17 -1743208037804 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245580816,"orderListId":-1,"clientOrderId":"x-HNA2TXFJba8b90ba003e47b8bd106c","transactTime":1743208037661}
+Sat Mar 29 2025 03:27:17 -1743208037804 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:27:21 -1743208041433 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:27:22 -1743208042361 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245581300,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9c4a6b0563c04c31a9db7b","transactTime":1743208042218}
+Sat Mar 29 2025 03:27:22 -1743208042361 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:27:24 -1743208044769 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:27:25 -1743208045821 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245581401,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ6983bd80500348a2889f68","transactTime":1743208045678}
+Sat Mar 29 2025 03:27:25 -1743208045821 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:27:28 -1743208048860 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:27:29 -1743208049833 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245581658,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ118f2fa300394d1d91af4b","transactTime":1743208049690}
+Sat Mar 29 2025 03:27:29 -1743208049834 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:27:32 -1743208052898 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:27:33 -1743208053943 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245582926,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ218ac7e355514533bef371","transactTime":1743208053801}
+Sat Mar 29 2025 03:27:33 -1743208053943 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:27:37 -1743208057463 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:27:38 -1743208058490 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245583145,"orderListId":-1,"clientOrderId":"x-HNA2TXFJdca20535aacd487fb4a014","transactTime":1743208058347}
+Sat Mar 29 2025 03:27:38 -1743208058490 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:28:00 -1743208080076 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:28:01 -1743208081087 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245584361,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ6c4fac2745ac4c24a9e1a8","transactTime":1743208080942}
+Sat Mar 29 2025 03:28:01 -1743208081088 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:28:09 -1743208089241 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:28:10 -1743208090166 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245584820,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ7c3975c962474441ad2b96","transactTime":1743208090027}
+Sat Mar 29 2025 03:28:10 -1743208090167 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:28:13 -1743208093189 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:28:14 -1743208094215 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245585066,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ1072d84de74243b497cf2c","transactTime":1743208094077}
+Sat Mar 29 2025 03:28:14 -1743208094216 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:28:20 -1743208100672 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:28:21 -1743208101749 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245586134,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ953967b3bf46417ab31d30","transactTime":1743208101605}
+Sat Mar 29 2025 03:28:21 -1743208101749 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:28:26 -1743208106786 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:28:27 -1743208107832 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245586591,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ526d8c81ccac43fd844661","transactTime":1743208107694}
+Sat Mar 29 2025 03:28:27 -1743208107832 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:28:29 -1743208109285 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:28:30 -1743208110333 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245586704,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9c91b563724e4f859afd7a","transactTime":1743208110195}
+Sat Mar 29 2025 03:28:30 -1743208110333 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:28:31 -1743208111301 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:28:32 -1743208112339 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245586960,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ8d8cd6561a994fd3b1875d","transactTime":1743208112201}
+Sat Mar 29 2025 03:28:32 -1743208112339 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:28:33 -1743208113308 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:28:34 -1743208114354 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245587183,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ7d07f873e869432493e25d","transactTime":1743208114216}
+Sat Mar 29 2025 03:28:34 -1743208114354 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:30:03 -1743208203030 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 03:30:03 -1743208203871 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 03:32:00 -1743208320835 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245608601,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ32541bcfa71f4dabb039c4","transactTime":1743208320696}
+Sat Mar 29 2025 03:32:00 -1743208320835 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:32:01 -1743208321869 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:32:02 -1743208322795 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245609345,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ1c2ec185533443be8cf815","transactTime":1743208322656}
+Sat Mar 29 2025 03:32:02 -1743208322796 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:32:03 -1743208323844 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:32:04 -1743208324883 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245610299,"orderListId":-1,"clientOrderId":"x-HNA2TXFJcb1fc87a4faa48bab4b4a5","transactTime":1743208324744}
+Sat Mar 29 2025 03:32:04 -1743208324883 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:32:06 -1743208326342 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:32:07 -1743208327358 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245611621,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9dc3cf23ed744e0cae85de","transactTime":1743208327219}
+Sat Mar 29 2025 03:32:07 -1743208327358 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:32:09 -1743208329497 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:32:10 -1743208330916 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245612094,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ258dc814b3c74554829f9d","transactTime":1743208330770}
+Sat Mar 29 2025 03:32:10 -1743208330920 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:32:25 -1743208345000 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:32:26 -1743208346024 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245614483,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ7f3a3faebf4a42fba840d3","transactTime":1743208345882}
+Sat Mar 29 2025 03:32:26 -1743208346024 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:32:30 -1743208350490 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:32:31 -1743208351511 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245615776,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ89862a64c7d34194baf4f7","transactTime":1743208351368}
+Sat Mar 29 2025 03:32:31 -1743208351512 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:33:03 -1743208383376 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 03:33:04 -1743208384732 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 03:33:55 -1743208435422 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245623980,"orderListId":-1,"clientOrderId":"x-HNA2TXFJeb3923961b634ecd991e02","transactTime":1743208435279}
+Sat Mar 29 2025 03:33:55 -1743208435422 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:34:01 -1743208441563 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:34:02 -1743208442480 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245624835,"orderListId":-1,"clientOrderId":"x-HNA2TXFJbf137aaefba14def8f19c5","transactTime":1743208442341}
+Sat Mar 29 2025 03:34:02 -1743208442480 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:34:05 -1743208445071 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:34:06 -1743208446030 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245624979,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ763d61228098405b895f93","transactTime":1743208445882}
+Sat Mar 29 2025 03:34:06 -1743208446030 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:34:08 -1743208448541 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:34:09 -1743208449557 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245625956,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc43666e5a1774076bc32f1","transactTime":1743208449419}
+Sat Mar 29 2025 03:34:09 -1743208449557 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:34:12 -1743208452100 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:34:13 -1743208453036 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245626635,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc41adaa28e884686ad0dcd","transactTime":1743208452897}
+Sat Mar 29 2025 03:34:13 -1743208453036 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:34:20 -1743208460099 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:34:21 -1743208461167 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245627287,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc03c6c6a318348e6a1f19b","transactTime":1743208461027}
+Sat Mar 29 2025 03:34:21 -1743208461167 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:34:30 -1743208470400 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:34:31 -1743208471426 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245628846,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3ec19d10fc2f48b08d9990","transactTime":1743208471255}
+Sat Mar 29 2025 03:34:31 -1743208471426 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:34:32 -1743208472309 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:34:33 -1743208473345 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245629123,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ878f5fd6f6ca4c27beb5a6","transactTime":1743208473207}
+Sat Mar 29 2025 03:34:33 -1743208473346 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:34:59 -1743208499269 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:35:00 -1743208500321 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245631565,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9bbce8112d554ca5b3713a","transactTime":1743208500165}
+Sat Mar 29 2025 03:35:00 -1743208500321 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:35:02 -1743208502090 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:35:03 -1743208503135 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245631690,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ0c810573f05e42f99cece9","transactTime":1743208502995}
+Sat Mar 29 2025 03:35:03 -1743208503135 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:35:17 -1743208517235 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:35:18 -1743208518272 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245633251,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf5e4acf5cbcb4ac7a67ea8","transactTime":1743208518132}
+Sat Mar 29 2025 03:35:18 -1743208518273 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:35:28 -1743208528809 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:35:29 -1743208529840 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245634537,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe25a3efb2a784848be0a4b","transactTime":1743208529702}
+Sat Mar 29 2025 03:35:29 -1743208529841 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:36:19 -1743208579099 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:36:20 -1743208580133 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245639830,"orderListId":-1,"clientOrderId":"x-HNA2TXFJdfaa10a4ae1e4007b7319b","transactTime":1743208579994}
+Sat Mar 29 2025 03:36:20 -1743208580133 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:36:21 -1743208581583 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:36:22 -1743208582635 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245640349,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ7759c236834d4350b4f6b5","transactTime":1743208582496}
+Sat Mar 29 2025 03:36:22 -1743208582635 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:36:23 -1743208583595 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:36:24 -1743208584635 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245640534,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ8d3fe4da61c541a1959e98","transactTime":1743208584496}
+Sat Mar 29 2025 03:36:24 -1743208584635 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:36:55 -1743208615306 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:36:56 -1743208616245 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245643973,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ1dfc2b6daad8451fbee2a6","transactTime":1743208616101}
+Sat Mar 29 2025 03:36:56 -1743208616245 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:37:50 -1743208670999 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 03:37:51 -1743208671955 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 03:52:10 -1743209530527 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245727273,"orderListId":-1,"clientOrderId":"x-HNA2TXFJdf847eca95e64756b77a9a","transactTime":1743209530384}
+Sat Mar 29 2025 03:52:10 -1743209530528 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:52:11 -1743209531451 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:52:12 -1743209532467 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245727386,"orderListId":-1,"clientOrderId":"x-HNA2TXFJb8c132e5bd5c4d6381efab","transactTime":1743209532324}
+Sat Mar 29 2025 03:52:12 -1743209532467 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:52:14 -1743209534521 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:52:15 -1743209535504 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245727797,"orderListId":-1,"clientOrderId":"x-HNA2TXFJbae721c0d4584170bc084c","transactTime":1743209535362}
+Sat Mar 29 2025 03:52:15 -1743209535505 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:52:21 -1743209541981 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:52:22 -1743209542993 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245728488,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe32ffdbd44f84181967191","transactTime":1743209542852}
+Sat Mar 29 2025 03:52:22 -1743209542994 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:52:24 -1743209544012 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:52:25 -1743209545030 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245728824,"orderListId":-1,"clientOrderId":"x-HNA2TXFJd0cea8a3bb32420daa6c5f","transactTime":1743209544888}
+Sat Mar 29 2025 03:52:25 -1743209545030 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:52:25 -1743209545941 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:52:26 -1743209546967 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245728960,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe3219ac3aa4146f8ba47b3","transactTime":1743209546825}
+Sat Mar 29 2025 03:52:26 -1743209546967 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:52:30 -1743209550532 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:52:31 -1743209551442 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245729242,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ43666147419f48bfa5c071","transactTime":1743209551303}
+Sat Mar 29 2025 03:52:31 -1743209551443 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:52:42 -1743209562538 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 03:52:43 -1743209563511 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 03:53:25 -1743209605759 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245735658,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf5e7a87c9844487393c884","transactTime":1743209605620}
+Sat Mar 29 2025 03:53:25 -1743209605760 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:53:43 -1743209623023 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:53:44 -1743209624103 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245737670,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf1a7ae1f10e14663948623","transactTime":1743209623947}
+Sat Mar 29 2025 03:53:44 -1743209624103 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:53:45 -1743209625122 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 03:53:46 -1743209626428 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11245737745,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9d6ba9e28e174b029d4a8f","transactTime":1743209626289}
+Sat Mar 29 2025 03:53:46 -1743209626429 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 03:55:08 -1743209708732 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 03:55:09 -1743209709692 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 11:28:02 -1743236882301 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249217528,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3cc3903d67164038abc7bf","transactTime":1743236882153}
+Sat Mar 29 2025 11:28:02 -1743236882311 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:28:03 -1743236883228 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:28:04 -1743236884206 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249217950,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ6bd77b443bb241798bef66","transactTime":1743236884064}
+Sat Mar 29 2025 11:28:04 -1743236884206 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:29:23 -1743236963010 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:29:24 -1743236964106 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249223116,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ469e2b84448246b48f2d66","transactTime":1743236963959}
+Sat Mar 29 2025 11:29:24 -1743236964107 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:29:25 -1743236965107 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:29:26 -1743236966035 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249223275,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc039664487024c29bfa70f","transactTime":1743236965888}
+Sat Mar 29 2025 11:29:26 -1743236966035 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:29:28 -1743236968140 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:29:29 -1743236969126 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249223483,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ78d03569647c4914830e1e","transactTime":1743236968983}
+Sat Mar 29 2025 11:29:29 -1743236969127 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:29:32 -1743236972032 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:29:33 -1743236973160 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249224164,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ1f6e815c9055400581ea90","transactTime":1743236973010}
+Sat Mar 29 2025 11:29:33 -1743236973160 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:30:21 -1743237021277 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:30:22 -1743237022338 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249229527,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ5b6dc31b837f4c8496b0ed","transactTime":1743237022194}
+Sat Mar 29 2025 11:30:22 -1743237022338 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:30:28 -1743237028357 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:30:29 -1743237029618 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249230585,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ24e09c6c9b164c7194755b","transactTime":1743237029471}
+Sat Mar 29 2025 11:30:29 -1743237029618 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:30:30 -1743237030790 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:30:31 -1743237031794 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249230801,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ541c757d32f94609b8a890","transactTime":1743237031651}
+Sat Mar 29 2025 11:30:31 -1743237031795 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:31:30 -1743237090215 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:31:31 -1743237091281 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249239477,"orderListId":-1,"clientOrderId":"x-HNA2TXFJafb07d5d2f9844adb704b9","transactTime":1743237091137}
+Sat Mar 29 2025 11:31:31 -1743237091281 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:31:32 -1743237092265 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:31:33 -1743237093265 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249239639,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ287371460c5a434095461b","transactTime":1743237093121}
+Sat Mar 29 2025 11:31:33 -1743237093265 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:31:42 -1743237102721 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:31:43 -1743237103761 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249241390,"orderListId":-1,"clientOrderId":"x-HNA2TXFJce2722e6978f4d53b3dbc3","transactTime":1743237103618}
+Sat Mar 29 2025 11:31:43 -1743237103762 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:31:53 -1743237113859 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:31:54 -1743237114784 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249242735,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ48ae147f8a9745f59ff59c","transactTime":1743237114639}
+Sat Mar 29 2025 11:31:54 -1743237114784 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:31:56 -1743237116809 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:31:57 -1743237117832 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249243340,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ14921914749a4d97b0a891","transactTime":1743237117689}
+Sat Mar 29 2025 11:31:57 -1743237117833 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:31:58 -1743237118844 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:31:59 -1743237119770 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249243735,"orderListId":-1,"clientOrderId":"x-HNA2TXFJeddb2a5250474fcfbc58d7","transactTime":1743237119626}
+Sat Mar 29 2025 11:31:59 -1743237119770 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:32:01 -1743237121284 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:32:02 -1743237122318 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249244041,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ4c54da51f4ab43d7adc2e0","transactTime":1743237122174}
+Sat Mar 29 2025 11:32:02 -1743237122318 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:32:03 -1743237123401 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:32:04 -1743237124377 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249244415,"orderListId":-1,"clientOrderId":"x-HNA2TXFJeef814f4503f4245acca38","transactTime":1743237124234}
+Sat Mar 29 2025 11:32:04 -1743237124377 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:32:08 -1743237128362 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:32:09 -1743237129384 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249245399,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf8849b7b2d70412e825c14","transactTime":1743237129241}
+Sat Mar 29 2025 11:32:09 -1743237129384 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:32:10 -1743237130443 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:32:11 -1743237131477 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249245605,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe004992170644d2ab050ae","transactTime":1743237131332}
+Sat Mar 29 2025 11:32:11 -1743237131477 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:32:12 -1743237132448 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:32:13 -1743237133392 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249245742,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ0b52f3a06e404c849d89cf","transactTime":1743237133248}
+Sat Mar 29 2025 11:32:13 -1743237133393 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:32:18 -1743237138412 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:32:19 -1743237139505 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249246296,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ2f9c64a1e47d420e9a3ce4","transactTime":1743237139338}
+Sat Mar 29 2025 11:32:19 -1743237139505 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:32:43 -1743237163027 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 11:32:44 -1743237164008 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 11:37:43 -1743237463106 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249291284,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ268e18eec3c74bedb53847","transactTime":1743237462965}
+Sat Mar 29 2025 11:37:43 -1743237463106 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:37:46 -1743237466032 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:37:47 -1743237467055 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249292540,"orderListId":-1,"clientOrderId":"x-HNA2TXFJa455c401495b4d39b467ea","transactTime":1743237466916}
+Sat Mar 29 2025 11:37:47 -1743237467056 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:37:48 -1743237468069 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:37:49 -1743237469513 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249293075,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9ba39a28b49f459697c759","transactTime":1743237469333}
+Sat Mar 29 2025 11:37:49 -1743237469513 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:37:51 -1743237471111 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:37:52 -1743237472014 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249293334,"orderListId":-1,"clientOrderId":"x-HNA2TXFJeb05db23a22f4b3a92bab1","transactTime":1743237471874}
+Sat Mar 29 2025 11:37:52 -1743237472014 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:38:06 -1743237486586 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:38:07 -1743237487609 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249295686,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ4d54b287ebc14a58aa8e7f","transactTime":1743237487470}
+Sat Mar 29 2025 11:38:07 -1743237487610 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:38:10 -1743237490124 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:38:11 -1743237491148 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249296360,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ1582adeb584c442094bc8b","transactTime":1743237491010}
+Sat Mar 29 2025 11:38:11 -1743237491148 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:38:46 -1743237526789 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:38:48 -1743237528300 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249301399,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ95261c0707674b7eb71acf","transactTime":1743237528160}
+Sat Mar 29 2025 11:38:48 -1743237528301 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:38:49 -1743237529313 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:38:50 -1743237530298 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249301610,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ4979856c96874f5b87b888","transactTime":1743237530158}
+Sat Mar 29 2025 11:38:50 -1743237530299 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:38:52 -1743237532832 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:38:53 -1743237533786 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249301822,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ1dd9ebbdf77446d6a855bd","transactTime":1743237533646}
+Sat Mar 29 2025 11:38:53 -1743237533786 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:39:00 -1743237540837 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:39:01 -1743237541869 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249303465,"orderListId":-1,"clientOrderId":"x-HNA2TXFJad25920c3cb14651906ce1","transactTime":1743237541720}
+Sat Mar 29 2025 11:39:01 -1743237541869 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:39:03 -1743237543141 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 11:39:04 -1743237544306 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11249303782,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ23cfbcb9a8a74d1a86a0fd","transactTime":1743237544166}
+Sat Mar 29 2025 11:39:04 -1743237544307 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 11:39:58 -1743237598507 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 11:39:59 -1743237599424 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 17:04:28 -1743257068565 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252130383,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ4492b5964cbe43359bfe25","transactTime":1743257068422}
+Sat Mar 29 2025 17:04:28 -1743257068565 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:04:38 -1743257078423 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:04:39 -1743257079473 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252132669,"orderListId":-1,"clientOrderId":"x-HNA2TXFJd4df6642a1f6403aa07f63","transactTime":1743257079331}
+Sat Mar 29 2025 17:04:39 -1743257079474 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:05:17 -1743257117047 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 17:05:17 -1743257117994 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 17:38:05 -1743259085082 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252352599,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9fcf3db75c674384ae5b38","transactTime":1743259084937}
+Sat Mar 29 2025 17:38:05 -1743259085083 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:38:06 -1743259086414 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:38:07 -1743259087410 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252352639,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ7ea35d93af794abb9f4097","transactTime":1743259087266}
+Sat Mar 29 2025 17:38:07 -1743259087411 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:38:10 -1743259090860 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:38:11 -1743259091842 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252353500,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ26d29a34b54e44298f02fb","transactTime":1743259091698}
+Sat Mar 29 2025 17:38:11 -1743259091842 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:38:32 -1743259112543 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 17:38:33 -1743259113487 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 17:39:20 -1743259160881 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252360282,"orderListId":-1,"clientOrderId":"x-HNA2TXFJb36ff2f5bd0348f3929d65","transactTime":1743259160675}
+Sat Mar 29 2025 17:39:20 -1743259160881 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:39:22 -1743259162240 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:39:23 -1743259163261 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252360394,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ45c625781a644e27a04cc4","transactTime":1743259163118}
+Sat Mar 29 2025 17:39:23 -1743259163261 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:39:24 -1743259164762 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:39:25 -1743259165777 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252360486,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ648325f1db464b83a77ef3","transactTime":1743259165634}
+Sat Mar 29 2025 17:39:25 -1743259165777 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:39:35 -1743259175274 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:39:36 -1743259176177 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252361020,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9cecee6440aa4cd9ac1010","transactTime":1743259176033}
+Sat Mar 29 2025 17:39:36 -1743259176177 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:39:37 -1743259177203 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:39:38 -1743259178236 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252361160,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ827f488645a74d5aa40e08","transactTime":1743259178094}
+Sat Mar 29 2025 17:39:38 -1743259178236 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:39:42 -1743259182856 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:39:43 -1743259183762 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252361306,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9ce0bdc274a04841a4b1ae","transactTime":1743259183619}
+Sat Mar 29 2025 17:39:43 -1743259183762 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:40:32 -1743259232367 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:40:33 -1743259233388 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252368372,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf22c346d018348bc819afb","transactTime":1743259233246}
+Sat Mar 29 2025 17:40:33 -1743259233388 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:42:47 -1743259367709 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:42:48 -1743259368743 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252379527,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ0b7536c5e62a437a810c28","transactTime":1743259368598}
+Sat Mar 29 2025 17:42:48 -1743259368744 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:43:01 -1743259381773 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:43:02 -1743259382820 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252380882,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ319e198dfc69497da8a4b9","transactTime":1743259382675}
+Sat Mar 29 2025 17:43:02 -1743259382820 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:43:04 -1743259384806 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:43:05 -1743259385804 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252381592,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ23d1d0f0f32e4032bb8370","transactTime":1743259385660}
+Sat Mar 29 2025 17:43:05 -1743259385804 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:43:08 -1743259388342 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:43:09 -1743259389306 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252381918,"orderListId":-1,"clientOrderId":"x-HNA2TXFJdaed39f5be4646848c208a","transactTime":1743259389166}
+Sat Mar 29 2025 17:43:09 -1743259389306 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:43:10 -1743259390345 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 17:43:11 -1743259391823 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252382375,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3371d324e43545e182c5bd","transactTime":1743259391680}
+Sat Mar 29 2025 17:43:11 -1743259391824 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 17:44:13 -1743259453471 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 17:44:14 -1743259454412 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 19:22:12 -1743265332958 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252986000,"orderListId":-1,"clientOrderId":"x-HNA2TXFJcbba9eee7d784093865e09","transactTime":1743265332816}
+Sat Mar 29 2025 19:22:12 -1743265332958 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:22:14 -1743265334352 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:22:15 -1743265335441 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252986465,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ4eb9b8ac4b494b55b9b414","transactTime":1743265335299}
+Sat Mar 29 2025 19:22:15 -1743265335441 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:22:17 -1743265337814 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:22:18 -1743265338834 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252987509,"orderListId":-1,"clientOrderId":"x-HNA2TXFJb40b97488c54489ca987a9","transactTime":1743265338694}
+Sat Mar 29 2025 19:22:18 -1743265338834 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:22:19 -1743265339895 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:22:20 -1743265340853 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252987640,"orderListId":-1,"clientOrderId":"x-HNA2TXFJda26598c8fd643e8b898b6","transactTime":1743265340712}
+Sat Mar 29 2025 19:22:20 -1743265340853 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:22:21 -1743265341887 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:22:22 -1743265342834 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252988002,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ7411fcf51c2f4a7b804060","transactTime":1743265342693}
+Sat Mar 29 2025 19:22:22 -1743265342835 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:22:23 -1743265343879 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:22:24 -1743265344890 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252988191,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ81566bfb02874920bf10dd","transactTime":1743265344742}
+Sat Mar 29 2025 19:22:24 -1743265344891 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:22:28 -1743265348416 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:22:29 -1743265349339 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252988775,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3ee938922b9c4c58b92dd1","transactTime":1743265349198}
+Sat Mar 29 2025 19:22:29 -1743265349339 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:22:30 -1743265350465 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:22:31 -1743265351403 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252989046,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ58073bfc9c9c42f19597e1","transactTime":1743265351258}
+Sat Mar 29 2025 19:22:31 -1743265351404 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:22:34 -1743265354446 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:22:35 -1743265355960 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252989774,"orderListId":-1,"clientOrderId":"x-HNA2TXFJcc5517950fe64ccd917e02","transactTime":1743265355817}
+Sat Mar 29 2025 19:22:35 -1743265355960 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:22:37 -1743265357875 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:22:38 -1743265358905 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252989917,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ0d63af6f5bd74abd88c70c","transactTime":1743265358764}
+Sat Mar 29 2025 19:22:38 -1743265358905 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:22:44 -1743265364929 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:22:45 -1743265365911 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252990715,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf20d0f037f874161b90b94","transactTime":1743265365771}
+Sat Mar 29 2025 19:22:45 -1743265365911 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:22:47 -1743265367487 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:22:48 -1743265368463 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11252991691,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ157daa8d31a0497f925c14","transactTime":1743265368322}
+Sat Mar 29 2025 19:22:48 -1743265368463 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:24:52 -1743265492287 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 19:24:53 -1743265493152 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 19:31:14 -1743265874021 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253048918,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ313b11ca96ee415cbe8988","transactTime":1743265873881}
+Sat Mar 29 2025 19:31:14 -1743265874021 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:31:15 -1743265875509 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:31:16 -1743265876509 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253049218,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ96cd3e3e8e224f89bd66cc","transactTime":1743265876354}
+Sat Mar 29 2025 19:31:16 -1743265876510 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:31:18 -1743265878462 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:31:19 -1743265879412 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253049680,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ772dc86b73b748528b3625","transactTime":1743265879271}
+Sat Mar 29 2025 19:31:19 -1743265879412 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:31:20 -1743265880936 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:31:21 -1743265881951 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253049973,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ8eb60bab97f94343b2f50b","transactTime":1743265881808}
+Sat Mar 29 2025 19:31:21 -1743265881952 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:31:23 -1743265883024 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:31:24 -1743265884050 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253050300,"orderListId":-1,"clientOrderId":"x-HNA2TXFJfd353fa30897436c893134","transactTime":1743265883910}
+Sat Mar 29 2025 19:31:24 -1743265884050 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:31:27 -1743265887972 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:31:29 -1743265889294 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253051422,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3e107d6a79704d4e98e06a","transactTime":1743265889137}
+Sat Mar 29 2025 19:31:29 -1743265889294 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:31:51 -1743265911002 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:31:52 -1743265912033 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253054121,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe7868d8dca504138a81a13","transactTime":1743265911891}
+Sat Mar 29 2025 19:31:52 -1743265912034 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:32:01 -1743265921020 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:32:02 -1743265922033 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253054837,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ76eabfdc8c6e473b8cfdc2","transactTime":1743265921892}
+Sat Mar 29 2025 19:32:02 -1743265922034 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:32:10 -1743265930013 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:32:11 -1743265931041 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253055855,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9626e8bb1d7a49fdb2d467","transactTime":1743265930902}
+Sat Mar 29 2025 19:32:11 -1743265931041 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:32:20 -1743265940066 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:32:21 -1743265941111 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253056788,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ31fe1d9b6c4046c08454d0","transactTime":1743265940964}
+Sat Mar 29 2025 19:32:21 -1743265941112 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:32:23 -1743265943157 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:32:24 -1743265944594 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253057825,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ2411b567bf61488dbd96e3","transactTime":1743265944455}
+Sat Mar 29 2025 19:32:24 -1743265944595 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:32:26 -1743265946102 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:32:27 -1743265947152 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253057983,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ6b6bb093aed741a1aa5fc8","transactTime":1743265947012}
+Sat Mar 29 2025 19:32:27 -1743265947152 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:32:28 -1743265948105 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:32:29 -1743265949135 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253058045,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9173695673394f698c3d1a","transactTime":1743265948996}
+Sat Mar 29 2025 19:32:29 -1743265949135 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:34:35 -1743266075499 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:34:36 -1743266076515 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253069200,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ5cdae89052ab42799fa59d","transactTime":1743266076376}
+Sat Mar 29 2025 19:34:36 -1743266076516 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:34:38 -1743266078542 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:34:39 -1743266079550 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253069585,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ752911c23d704159a8ee03","transactTime":1743266079408}
+Sat Mar 29 2025 19:34:39 -1743266079550 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:34:41 -1743266081075 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:34:42 -1743266082072 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253069719,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ4673d55a0f6740d99dd31a","transactTime":1743266081926}
+Sat Mar 29 2025 19:34:42 -1743266082072 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:34:44 -1743266084082 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:34:45 -1743266085028 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253069805,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ84906c214bb5493298326e","transactTime":1743266084889}
+Sat Mar 29 2025 19:34:45 -1743266085029 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:34:49 -1743266089560 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:34:50 -1743266090571 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253070501,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ8dd305eb712347b3892eda","transactTime":1743266090424}
+Sat Mar 29 2025 19:34:50 -1743266090571 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:34:51 -1743266091560 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:34:52 -1743266092583 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253070735,"orderListId":-1,"clientOrderId":"x-HNA2TXFJbf3b6c5a4ce7494b995fdd","transactTime":1743266092444}
+Sat Mar 29 2025 19:34:52 -1743266092583 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:34:53 -1743266093609 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:34:55 -1743266095170 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253072151,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ677e2e9f46dc41949d0c41","transactTime":1743266095026}
+Sat Mar 29 2025 19:34:55 -1743266095170 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:35:09 -1743266109596 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:35:10 -1743266110660 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253074075,"orderListId":-1,"clientOrderId":"x-HNA2TXFJca1dc48ccf9141d19d59f7","transactTime":1743266110510}
+Sat Mar 29 2025 19:35:10 -1743266110661 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:35:12 -1743266112077 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:35:13 -1743266113353 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253074862,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ90e7064ffe4b466597b7e7","transactTime":1743266113212}
+Sat Mar 29 2025 19:35:13 -1743266113353 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:35:15 -1743266115646 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:35:16 -1743266116610 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253075136,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ5560d1a4216c45f0b5ae0d","transactTime":1743266116468}
+Sat Mar 29 2025 19:35:16 -1743266116610 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:35:17 -1743266117602 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:35:18 -1743266118554 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253075418,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ4713bd85a0fa46469b3873","transactTime":1743266118414}
+Sat Mar 29 2025 19:35:18 -1743266118554 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:35:19 -1743266119575 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:35:20 -1743266120622 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253075788,"orderListId":-1,"clientOrderId":"x-HNA2TXFJd06b8deaf02d46b0a5cb64","transactTime":1743266120483}
+Sat Mar 29 2025 19:35:20 -1743266120622 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:35:22 -1743266122168 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:35:23 -1743266123150 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253076213,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ36c0c8fe95514904a95156","transactTime":1743266123011}
+Sat Mar 29 2025 19:35:23 -1743266123151 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:35:27 -1743266127123 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:35:28 -1743266128281 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253076455,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ87001d41bca4473ba9588c","transactTime":1743266128139}
+Sat Mar 29 2025 19:35:28 -1743266128281 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:35:34 -1743266134194 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:35:35 -1743266135165 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253077265,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ74d82093910b42e4932b99","transactTime":1743266135025}
+Sat Mar 29 2025 19:35:35 -1743266135166 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:35:36 -1743266136177 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 19:35:37 -1743266137195 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11253077326,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ6fa1a7666c2f4e659cbb6a","transactTime":1743266137051}
+Sat Mar 29 2025 19:35:37 -1743266137196 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 19:40:33 -1743266433473 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 19:40:34 -1743266434365 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 21:47:18 -1743274038105 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254754630,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3e2765da49f1445b9f62f7","transactTime":1743274037954}
+Sat Mar 29 2025 21:47:18 -1743274038105 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 21:47:21 -1743274041428 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 21:47:22 -1743274042426 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254755161,"orderListId":-1,"clientOrderId":"x-HNA2TXFJd7cd7ccdc7444358983dff","transactTime":1743274042281}
+Sat Mar 29 2025 21:47:22 -1743274042426 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 21:47:24 -1743274044468 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 21:47:25 -1743274045450 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254755434,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ20c8c2957fb54810abbc5e","transactTime":1743274045305}
+Sat Mar 29 2025 21:47:25 -1743274045450 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 21:47:29 -1743274049482 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 21:47:30 -1743274050508 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254756598,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ178ecdb2a8f04c9cbf7d2f","transactTime":1743274050366}
+Sat Mar 29 2025 21:47:30 -1743274050508 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 21:47:31 -1743274051993 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 21:47:32 -1743274052940 : [registration-sdelki] [3] Registration complete
+Sat Mar 29 2025 21:55:05 -1743274505085 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254817430,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc867fbe5999b4abaae087e","transactTime":1743274504949}
+Sat Mar 29 2025 21:55:05 -1743274505086 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 21:55:37 -1743274537654 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 21:55:38 -1743274538581 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254821460,"orderListId":-1,"clientOrderId":"x-HNA2TXFJaa14e19933a9446f81ea02","transactTime":1743274538432}
+Sat Mar 29 2025 21:55:38 -1743274538581 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 21:55:44 -1743274544036 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 21:55:45 -1743274545072 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254821740,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ569fad57e1e844dc842164","transactTime":1743274544934}
+Sat Mar 29 2025 21:55:45 -1743274545073 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 21:56:07 -1743274567606 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 21:56:08 -1743274568668 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254824775,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc2d8dbc6843648829a830e","transactTime":1743274568530}
+Sat Mar 29 2025 21:56:08 -1743274568670 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 21:56:10 -1743274570235 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 21:56:11 -1743274571204 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254824889,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ5b25774e56aa4cf8bea7df","transactTime":1743274571065}
+Sat Mar 29 2025 21:56:11 -1743274571204 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 21:56:15 -1743274575178 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 21:56:16 -1743274576107 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254825676,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ78ad6a56b45b46d7b35c4f","transactTime":1743274575971}
+Sat Mar 29 2025 21:56:16 -1743274576107 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 22:00:54 -1743274854885 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 22:00:55 -1743274855800 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254856351,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ83ada35f9de8406ab94594","transactTime":1743274855664}
+Sat Mar 29 2025 22:00:55 -1743274855800 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 22:00:56 -1743274856844 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 22:00:57 -1743274857753 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254856828,"orderListId":-1,"clientOrderId":"x-HNA2TXFJfd577d4b9bf546a499ed10","transactTime":1743274857616}
+Sat Mar 29 2025 22:00:57 -1743274857754 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 22:01:01 -1743274861276 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 22:01:02 -1743274862344 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254857733,"orderListId":-1,"clientOrderId":"x-HNA2TXFJfc4d1e953af84de4b36fac","transactTime":1743274862201}
+Sat Mar 29 2025 22:01:02 -1743274862344 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 22:01:03 -1743274863358 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 22:01:04 -1743274864400 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254858955,"orderListId":-1,"clientOrderId":"x-HNA2TXFJb362363e160f4b998d940f","transactTime":1743274864264}
+Sat Mar 29 2025 22:01:04 -1743274864400 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 22:01:22 -1743274882320 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 22:01:23 -1743274883329 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254861697,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf39a3f20d2b246a0abf37f","transactTime":1743274883189}
+Sat Mar 29 2025 22:01:23 -1743274883329 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 22:01:28 -1743274888826 : [ sell_cancel_on_binance] Успешно
+Sat Mar 29 2025 22:01:29 -1743274889868 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11254862818,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ2eab6b26abbc4124bd4029","transactTime":1743274889731}
+Sat Mar 29 2025 22:01:29 -1743274889868 : [ sell_on_binance] Успешно
+Sat Mar 29 2025 22:02:14 -1743274934954 : [ order_status_on_binance] Успешно
+Sat Mar 29 2025 22:02:15 -1743274935861 : [registration-sdelki] [3] Registration complete
+Sun Mar 30 2025 11:01:54 -1743321714118 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259704151,"orderListId":-1,"clientOrderId":"x-HNA2TXFJda9ec1d01ee940379a38b6","transactTime":1743321713976}
+Sun Mar 30 2025 11:01:54 -1743321714118 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:02:16 -1743321736580 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:02:17 -1743321737501 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259705294,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ7e492580210b41ad8d3297","transactTime":1743321737364}
+Sun Mar 30 2025 11:02:17 -1743321737501 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:02:19 -1743321739548 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:02:20 -1743321740575 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259705333,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe158b92e7e614e6e949853","transactTime":1743321740438}
+Sun Mar 30 2025 11:02:20 -1743321740576 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:02:31 -1743321751103 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:02:32 -1743321752115 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259706166,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ5e86dec14aca47a38a4186","transactTime":1743321751976}
+Sun Mar 30 2025 11:02:32 -1743321752115 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:02:33 -1743321753144 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:02:34 -1743321754153 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259706296,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ742bb5860cf246fe9065e5","transactTime":1743321754016}
+Sun Mar 30 2025 11:02:34 -1743321754153 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:02:35 -1743321755165 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:02:36 -1743321756103 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259706398,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe2875ae67f9a42c6858650","transactTime":1743321755966}
+Sun Mar 30 2025 11:02:36 -1743321756103 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:05:01 -1743321901292 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:05:02 -1743321902310 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259714609,"orderListId":-1,"clientOrderId":"x-HNA2TXFJd6d3a5a54127410cb9e741","transactTime":1743321902173}
+Sun Mar 30 2025 11:05:02 -1743321902310 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:05:03 -1743321903276 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:05:04 -1743321904286 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259714711,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc366591877a44328913022","transactTime":1743321904147}
+Sun Mar 30 2025 11:05:04 -1743321904286 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:05:08 -1743321908846 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:05:09 -1743321909776 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259714828,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ466038d218c847bcade466","transactTime":1743321909639}
+Sun Mar 30 2025 11:05:09 -1743321909777 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:05:11 -1743321911292 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:05:12 -1743321912310 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259715345,"orderListId":-1,"clientOrderId":"x-HNA2TXFJd3faae1224974903be21ec","transactTime":1743321912173}
+Sun Mar 30 2025 11:05:12 -1743321912310 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:05:16 -1743321916889 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:05:17 -1743321917907 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259715632,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ9e7608b046444ab683f06b","transactTime":1743321917767}
+Sun Mar 30 2025 11:05:17 -1743321917907 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:05:18 -1743321918949 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:05:19 -1743321919890 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259716524,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ6739c108331d47309eeca1","transactTime":1743321919752}
+Sun Mar 30 2025 11:05:19 -1743321919890 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:05:28 -1743321928952 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:05:30 -1743321930023 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259717324,"orderListId":-1,"clientOrderId":"x-HNA2TXFJc25f3691ec4a40318ea24b","transactTime":1743321929886}
+Sun Mar 30 2025 11:05:30 -1743321930023 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:05:31 -1743321931971 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:05:33 -1743321933024 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259717401,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ6d01d442dfc84c0aba34dd","transactTime":1743321932887}
+Sun Mar 30 2025 11:05:33 -1743321933024 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:09:16 -1743322156950 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:09:17 -1743322157922 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259738858,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe87b4ec546d146b88e0a4b","transactTime":1743322157783}
+Sun Mar 30 2025 11:09:17 -1743322157922 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:15:21 -1743322521225 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:15:22 -1743322522130 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259766294,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ2e6e3bbf4f7d45e297b63d","transactTime":1743322521980}
+Sun Mar 30 2025 11:15:22 -1743322522130 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:15:23 -1743322523208 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:15:24 -1743322524129 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259766526,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ204fe1c8848440df8502da","transactTime":1743322523983}
+Sun Mar 30 2025 11:15:24 -1743322524130 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:15:25 -1743322525678 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:15:26 -1743322526701 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259766887,"orderListId":-1,"clientOrderId":"x-HNA2TXFJbad3902efd074e38b374d1","transactTime":1743322526553}
+Sun Mar 30 2025 11:15:26 -1743322526701 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:15:50 -1743322550419 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:15:51 -1743322551497 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259768208,"orderListId":-1,"clientOrderId":"x-HNA2TXFJba89a95e2b454912ae2560","transactTime":1743322551340}
+Sun Mar 30 2025 11:15:51 -1743322551498 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:15:53 -1743322553385 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:15:54 -1743322554447 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259768338,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ2e6b97148df146d08df483","transactTime":1743322554303}
+Sun Mar 30 2025 11:15:54 -1743322554447 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:16:24 -1743322584006 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:16:25 -1743322585074 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259771504,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ96ba98c730744575bbfeff","transactTime":1743322584928}
+Sun Mar 30 2025 11:16:25 -1743322585074 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:20:03 -1743322803639 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:20:04 -1743322804626 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259785146,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ4009a53e6c64472784d98b","transactTime":1743322804480}
+Sun Mar 30 2025 11:20:04 -1743322804626 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:31:10 -1743323470612 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:31:12 -1743323472050 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259828342,"orderListId":-1,"clientOrderId":"x-HNA2TXFJb519151e837044c2b3a303","transactTime":1743323471907}
+Sun Mar 30 2025 11:31:12 -1743323472050 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:31:15 -1743323475025 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:31:16 -1743323476056 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259828508,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf2b75f60081045f1965613","transactTime":1743323475912}
+Sun Mar 30 2025 11:31:16 -1743323476057 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:31:25 -1743323485043 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:31:26 -1743323486114 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259829254,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf867f540a8b04051ba8b07","transactTime":1743323485971}
+Sun Mar 30 2025 11:31:26 -1743323486115 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:31:27 -1743323487157 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:31:28 -1743323488577 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259829520,"orderListId":-1,"clientOrderId":"x-HNA2TXFJb1ba58f474e44879a10832","transactTime":1743323488432}
+Sun Mar 30 2025 11:31:28 -1743323488577 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:32:21 -1743323541742 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:32:23 -1743323543058 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259832705,"orderListId":-1,"clientOrderId":"x-HNA2TXFJda3000e94cf94b0baf889d","transactTime":1743323542909}
+Sun Mar 30 2025 11:32:23 -1743323543058 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:33:04 -1743323584374 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:33:05 -1743323585328 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259835572,"orderListId":-1,"clientOrderId":"x-HNA2TXFJcd5fbea99b54487888374e","transactTime":1743323585164}
+Sun Mar 30 2025 11:33:05 -1743323585328 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:49:21 -1743324561293 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:49:22 -1743324562206 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259887166,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ866d5c91a12644478a040d","transactTime":1743324562071}
+Sun Mar 30 2025 11:49:22 -1743324562207 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:49:23 -1743324563242 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:49:24 -1743324564252 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259887290,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ991486829a8e4fc78ebe21","transactTime":1743324564117}
+Sun Mar 30 2025 11:49:24 -1743324564253 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:49:36 -1743324576252 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:49:37 -1743324577262 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259887850,"orderListId":-1,"clientOrderId":"x-HNA2TXFJcad9af0f9c7848ecaeaf25","transactTime":1743324577126}
+Sun Mar 30 2025 11:49:37 -1743324577262 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:49:58 -1743324598340 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:49:59 -1743324599354 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259888536,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ4d15fc74d59d4f8fa88461","transactTime":1743324599218}
+Sun Mar 30 2025 11:49:59 -1743324599354 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:50:02 -1743324602784 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:50:03 -1743324603791 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259888854,"orderListId":-1,"clientOrderId":"x-HNA2TXFJb106de069a0d4345adec0b","transactTime":1743324603656}
+Sun Mar 30 2025 11:50:03 -1743324603791 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:50:04 -1743324604805 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:50:05 -1743324605845 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259888909,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ4c6ac85de6394ec3be3b4b","transactTime":1743324605709}
+Sun Mar 30 2025 11:50:05 -1743324605845 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:50:08 -1743324608331 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:50:09 -1743324609350 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259889017,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe325d723bd71400f98fb96","transactTime":1743324609215}
+Sun Mar 30 2025 11:50:09 -1743324609350 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:50:14 -1743324614879 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:50:15 -1743324615822 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259890028,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ18b1018b59a54812afb20e","transactTime":1743324615687}
+Sun Mar 30 2025 11:50:15 -1743324615822 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:50:20 -1743324620841 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:50:21 -1743324621852 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259890617,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ2707e15f46b345aeb2e8c4","transactTime":1743324621717}
+Sun Mar 30 2025 11:50:21 -1743324621852 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:52:37 -1743324757883 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:52:38 -1743324758906 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259898954,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ09e16f38fd504608bd3b70","transactTime":1743324758771}
+Sun Mar 30 2025 11:52:38 -1743324758906 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:52:47 -1743324767448 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:52:48 -1743324768392 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259899503,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ10d32beca706454c82d5c8","transactTime":1743324768256}
+Sun Mar 30 2025 11:52:48 -1743324768392 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:52:49 -1743324769422 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:52:50 -1743324770427 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259899583,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe421aae1e24d42caa12c0f","transactTime":1743324770292}
+Sun Mar 30 2025 11:52:50 -1743324770427 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:53:02 -1743324782986 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:53:03 -1743324783915 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259900855,"orderListId":-1,"clientOrderId":"x-HNA2TXFJdcb7114ff5df47f5aec688","transactTime":1743324783779}
+Sun Mar 30 2025 11:53:03 -1743324783915 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:53:05 -1743324785970 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:53:06 -1743324786982 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259901010,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe0dcbc1e449a43dd878899","transactTime":1743324786847}
+Sun Mar 30 2025 11:53:06 -1743324786982 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:54:25 -1743324865412 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:54:26 -1743324866365 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259906482,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ094d6800df144d10890337","transactTime":1743324866229}
+Sun Mar 30 2025 11:54:26 -1743324866366 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:54:27 -1743324867945 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:54:28 -1743324868994 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259906758,"orderListId":-1,"clientOrderId":"x-HNA2TXFJcceb8256fdd241f49253d6","transactTime":1743324868858}
+Sun Mar 30 2025 11:54:28 -1743324868994 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:54:29 -1743324869901 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:54:30 -1743324870907 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259906802,"orderListId":-1,"clientOrderId":"x-HNA2TXFJe522d549ec7a4fd5ae9547","transactTime":1743324870772}
+Sun Mar 30 2025 11:54:30 -1743324870907 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:54:35 -1743324875999 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:54:37 -1743324877004 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259906971,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ6cfeedb6565b4b4e97ab0b","transactTime":1743324876867}
+Sun Mar 30 2025 11:54:37 -1743324877004 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:55:32 -1743324932363 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:55:33 -1743324933275 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259910453,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3372783a786e40a8a14a32","transactTime":1743324933138}
+Sun Mar 30 2025 11:55:33 -1743324933275 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:57:20 -1743325040712 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:57:21 -1743325041723 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259918195,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ225167cac7a9499ca2babf","transactTime":1743325041586}
+Sun Mar 30 2025 11:57:21 -1743325041723 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:57:24 -1743325044199 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:57:25 -1743325045212 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259918334,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ265161c44d9a40f596384e","transactTime":1743325045075}
+Sun Mar 30 2025 11:57:25 -1743325045213 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:57:27 -1743325047259 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:57:28 -1743325048175 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259918426,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ3b1a211190a247fda77a13","transactTime":1743325048038}
+Sun Mar 30 2025 11:57:28 -1743325048175 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:57:42 -1743325062732 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:57:43 -1743325063749 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259919254,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ973ed569d68d41839e8eba","transactTime":1743325063612}
+Sun Mar 30 2025 11:57:43 -1743325063749 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:57:44 -1743325064757 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:57:45 -1743325065702 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259919414,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ0907580ccd0949ff9e5df4","transactTime":1743325065565}
+Sun Mar 30 2025 11:57:45 -1743325065702 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:57:54 -1743325074270 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:57:55 -1743325075294 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259919678,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ70de7fbf7fdd42a28daf69","transactTime":1743325075157}
+Sun Mar 30 2025 11:57:55 -1743325075294 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:57:57 -1743325077731 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:57:58 -1743325078740 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259920412,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ58ff1f6afb804a7cae1e4c","transactTime":1743325078602}
+Sun Mar 30 2025 11:57:58 -1743325078740 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:58:03 -1743325083762 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:58:04 -1743325084788 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259921092,"orderListId":-1,"clientOrderId":"x-HNA2TXFJf16abbd4e4524bf18fb50d","transactTime":1743325084652}
+Sun Mar 30 2025 11:58:04 -1743325084789 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 11:58:05 -1743325085794 : [ sell_cancel_on_binance] Успешно
+Sun Mar 30 2025 11:58:07 -1743325087276 : [ sell_on_binance] Sell ордер успешно размещен: {"symbol":"SOLUSDT","orderId":11259921242,"orderListId":-1,"clientOrderId":"x-HNA2TXFJ4699bbd9cb0b429c88acfd","transactTime":1743325087140}
+Sun Mar 30 2025 11:58:07 -1743325087276 : [ sell_on_binance] Успешно
+Sun Mar 30 2025 12:02:22 -1743325342740 : [ order_status_on_binance] Успешно
+Sun Mar 30 2025 12:02:23 -1743325343589 : [registration] [3] complete
