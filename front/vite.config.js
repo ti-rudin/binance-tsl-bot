@@ -41,8 +41,9 @@ export default defineConfig({
       })
     ]
   },
-  preview: {
+preview: {
     port: 3000,
+    allowedHosts: ['*.gitpod.io'],
   },
   base: '/',
   publicDir: 'public',

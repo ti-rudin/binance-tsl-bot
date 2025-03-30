@@ -1,15 +1,12 @@
 tasks:
-  - init: |
-      docker-compose pull
-  - command: |
-      docker-compose up
+  - name: Setup and run project
+    init: |
+      cd front/ && npm i
+      cd ../node-red/ && npm i
+      cd .. && docker-compose up -d
 
 ports:
-  - port: 3000
-    onOpen: open-browser
   - port: 1880
-    onOpen: open-browser
-
-vscode:
-  extensions:
-    - ms-azuretools.vscode-docker
+    onOpen: open-preview
+  - port: 3000
+    onOpen: open-preview
